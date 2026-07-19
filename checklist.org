@@ -5,12 +5,14 @@
 "William Thornton and negro colonization" by Hunt, Gaillard
 
 * Things to revisit
+- [ ] There are sections, not chapters, per PM.
 * Transcriber Notes
 * Notes
 ** General notes
 ** Proofer notes
 ** Smooth reader notes
 ** Forum notes
+- No forum posts
 ** Project comments
 #+begin_src markdown
 Subtitle is **Reprinted from the Proceedings of the American antiquarian society for April,1920.** The original images are from the Library of Congress collection at [TIA](https://archive.org/details/williamthorntonn00hunt/page/n5/mode/2up).
@@ -28,11 +30,11 @@ cd ~/dp/util
 . venv/bin/activate
 ./make_project.py
 #+end_src
-- [ ] Read the [[https://www.pgdp.net/c/project.php?id=projectID64ae2bc64dae0#project-comments][project comments]]
-- [ ] Subscribe to the [[][forum topic]] and read all posts
-- [ ] Open ~thornton-utf8.txt~ in Guiguts
-- [ ] Set document language (probably ~en~)
-- [ ] ~File → Project → Configure Page Labels...~. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
+- [X] Read the [[https://www.pgdp.net/c/project.php?id=projectID64ae2bc64dae0#project-comments][project comments]]
+- [X] Subscribe to the [[][forum topic]] and read all posts
+- [X] Open ~thornton-utf8.txt~ in Guiguts
+- [X] Set document language (probably ~en~)
+- [X] ~File → Project → Configure Page Labels...~. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 *** Sequential Inspection of Text
 - [ ] Turn on ~Auto Img~
 - [ ] Check for chapter/section spacing (2,4). Regex: ~(^$\n^$\n^$\n^$\n|^$\n^$\n)~ and use "Highlight All".
