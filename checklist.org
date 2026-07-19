@@ -6,6 +6,7 @@
 
 * Things to revisit
 - [ ] There are sections, not chapters, per PM.
+- [ ] Drop-cap: 003
 * Transcriber Notes
 * Notes
 ** General notes
@@ -36,9 +37,9 @@ cd ~/dp/util
 - [X] Set document language (probably ~en~)
 - [X] ~File → Project → Configure Page Labels...~. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 *** Sequential Inspection of Text
-- [ ] Turn on ~Auto Img~
-- [ ] Check for chapter/section spacing (2,4). Regex: ~(^$\n^$\n^$\n^$\n|^$\n^$\n)~ and use "Highlight All".
-- [ ] If languages other than main language are noticed, add them to Lang setting (e.g. ~en+fr~)
+- [X] Turn on ~Auto Img~
+- [X] Check for chapter/section spacing (2,4). Regex: ~(^$\n^$\n^$\n^$\n|^$\n^$\n)~ and use "Highlight All".
+- [X] If languages other than main language are noticed, add them to Lang setting (e.g. ~en+fr~)
 Check for:
 - Proper spacing for chapters and paragraphs
   - Before chapter start: 4 blank lines
@@ -54,7 +55,7 @@ Check for:
   - Consistent spelling, abbreviation, capitalization in captions
   - For captionless (~[Illustration: ]~), remove colon & whitespace
 - Check that ~[Blank Page]~ are actually blank pages!
-- Note any illustrations in a list in ~README.md~ for later handling
+- Note any illustrations in a list for later handling
 - Anything else that sticks out.
 *** Basic Fixup
 - [ ] If project has Greek charset enabled, regex search ~\p{Greek}~ to look for Greek characters where they shouldn't be.
