@@ -106,25 +106,24 @@ Instructions for ~/* */~ and ~/# #/~ blocks:
 - [X] ~Search → Find Proofer Comments~. Resolve all proofer's notes.
 - [X] ~Tools → Unmatched → Block Markup~
 - [X] ~Tools → Unmatched → DP Markup~
-- [ ] Search ~(</i>)([!?;:])~ & replace ~\2\1~ to find punct that should move inside quotes
-- [ ] Use ~Tools → Unmatched → Brackets~ to check each type of bracket and markup.
+- [X] Search ~(</i>)([!?;:])~ & replace ~\2\1~ to find punct that should move inside quotes
+- [X] Use ~Tools → Unmatched → Brackets~ to check each type of bracket and markup.
   - Do not omit the lowly parenthesis, often mis-scanned as curly-brace.
-- [ ] Look for malformed thought-breaks (5 stars). Regex: ~\*\s*\*\s*\*\s*\*\s*\*~
+- [X] Look for malformed thought-breaks (5 stars). Regex: ~\*\s*\*\s*\*\s*\*\s*\*~
 *** Transliterations
-- [ ] Check for non-Latin script tags, handle as appropriate. ~\[(Greek|Hebrew|Arabic|Cyrillic)~
+- [X] Check for non-Latin script tags, handle as appropriate. ~\[(Greek|Hebrew|Arabic|Cyrillic)~
 *** Fix Footnotes
-- [ ] Use ~Tools → Footnote Fixup~. This will help you validate and move any footnotes.
+- [X] Use ~Tools → Footnote Fixup~. This will help you validate and move any footnotes.
   - ~Next / Prev FN~ to navigate
   - Look for ~*~ and use ~Join Selected FN to Previous~ to join them
   - THERE SHOULD BE NO SUSPECTS AT TOP OF WINDOW
     - Exception: sometimes a footnote is really long
     - Exception: multiple anchors per footnote can confuse it?
-- [ ] Move footnotes between paragraphs
+- [X] Move footnotes between paragraphs
   - ~Footnote Fixup~, ~Re-run~
   - ~All to Number~, ~Reindex~
   - ~Re-run~, ~Move FNs to Paragraphs~
-- [ ] Search for blocks: regex (no case match) ~^/[#*$PCRFLXI]~ and move footnotes outside of blocks as appropriate
-- [ ] Depending on book, move footnotes to end of chapters, or end of book (use Footnote Fixup)
+- [X] Search for blocks: regex (no case match) ~^/[#*$PCRFLXI]~ and move footnotes outside of blocks as appropriate
 *** Sidenote fixup
 - [ ] Use the Sidenote tool to rejoin and reposition sidenotes.
 *** Fixup Illustration locations
@@ -189,6 +188,8 @@ For now, do not process EM dash. The EM dash and long dash (2x EM) are left for 
     - Range of numbers ~12–15~ (uses EN DASH)
     - Negative numbers ~–14º~ (uses MINUS SIGN)
 - Any single dashes not covered above are treated as hyphens.
+*** Move footnotes to landing zones
+- [ ] Depending on book, move footnotes to end of chapters, or end of book (use Footnote Fixup)
 *** Last pre-split check
 - [ ] Look at the revisit list for anything to handle before text/html split
 - [ ] Check for unexpected ~*~: ~Search → Find Asterisks w/o Slash~
