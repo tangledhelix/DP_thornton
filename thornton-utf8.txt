@@ -2,7 +2,7 @@
 
 
 
-/*
+/x
 American Antiquarian Society
 
 WILLIAM THORNTON AND
@@ -18,15 +18,15 @@ for April 1920</sc>
 WORCESTER, MASSACHUSETTS, U.S.A.
 PUBLISHED BY THE SOCIETY
 1921
-*/
+x/
 
 
 
 
-/*
+/x
 <sc>The Davis Press
 Worcester, Massachusetts</sc>
-*/
+x/
 
 
 
@@ -464,9 +464,11 @@ des Noirs."
 J. DOTY TO WILLIAM THORNTON
 
 /#
-/*
+/r
 [Tortola] [1786]
+r/
 
+/*
 Dear Sir
 */
 
@@ -717,9 +719,9 @@ under the promise of the most high, but my Friends what
 infinity of happiness shall be theirs who deliver from bondage
 & call unto Christ so many Thousand Souls!
 
-/*
+/r
 W. T.
-*/
+r/
 #/
 
 /#
@@ -1250,9 +1252,9 @@ Nation in the World.
 #/
 
 /#
-/*
+/r
 [December, 1816.]
-*/
+r/
 
 To the honorable Henry Clay, Chairman of the Assembly for
 promoting the establishment of a free and independ^t. Nation
@@ -1428,7 +1430,7 @@ to our God, would bless the Children of the West!
 [Footnote 11: Political Economy founded in Justice and Humanity in a letter to a friend by W. T.
 Washington, 1804. Printed by Samuel Harrison Smith.]
 
-/*
+/r
 W: T:
-*/
+r/
 #/
