@@ -5,19 +5,36 @@
 "William Thornton and negro colonization" by Hunt, Gaillard
 
 * Things to revisit
-- There are sections, not chapters, per PM.
-  - [ ] New section: 015, 018, 028?
-- [ ] Drop-cap: 003
-- [ ] Right-align: 013, 018, 028, 032
-- [ ] No-indent para: 013, 019(2), 026, 028
-- [ ] Latin: footnote 3(?)
 - [ ] 015: some weird formatting to figure out at the foot of block
 - [ ] 019: "table header" without a table. How to format? span+padding-left?
 - [ ] 023: left → center → right closing signature...
+- There are sections, not chapters, per PM.
+  - [ ] New section: 015, 018, 028?
+- [ ] Drop-cap: 003
+- Alignment:
+  - [ ] Right-align: 013, 018, 028, 032
+  - [ ] No-indent para: 013, 019(2), 026, 028
+- Languages:
+  - [ ] Latin: footnote 3(?)
+  - [ ] French: 006, 019 (Clavière's title)
 - Abbreviations
+  - Numerous superscript abbrs to watch for
+    - [ ] ~^~ in text
+    - [ ] ~<sup>~ in HTML
+    - [ ] Unusual roman numeral syntax, 006 (footnote 3)
+  - [ ] A couple of things to review in footnote 3.
+  - [ ] ~acct.~ probably ~account~ 025
+  - [ ] ~Deg:~ probably ~Degrees~ 018
   - [ ] ~Edin.~ probably ~Edinburgh~ 006 (footnote 3)
+  - [ ] ~Hist.~ probably ~History~ 006 (footnote 3)
+  - [ ] ~Lat:~ probably ~Latitude~ 018
+  - [ ] ~Long:~ probably ~Longitude~ 018
+  - [ ] ~MS~ without period 016 (footnote 8)
+  - [ ] ~N.~ for ~North~ (N. America) 022
+  - [ ] ~Ph. D.~ (class=spell?) 003 (footnote 1)
   - [ ] ~R.I.~ for ~Rhode Island~ 029
 * Transcriber Notes
+- Footnote 3: changed “therby” to “thereby” (each character thereby mutually fixing)
 - p. 18: changed “Propietors” to “Proprietors” (General Court of Proprietors)
 - p. 19: changed “verduer” to “verdure” (and with perpetual verdure)
 - p. 19: changed “CLAVIÉRE” to “CLAVIÈRE” (WILLIAM THORNTON TO ÉTIENNE CLAVIÈRE)
@@ -139,19 +156,19 @@ Instructions for ~/* */~ and ~/# #/~ blocks:
 *** Add Noted Rewrap Markers
 - [X] If the to-do list has any notes about adding [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers][rewrap markers]] (such as indexes or poetry), make those changes.
 *** Apply Word-Frequency Checks
-- [ ] Open ~Tools → Word Frequency~. Click on an entry to jump to it.
-- [ ] Choose ~Freq~ and ~All Words~. List is now sorted by word frequency; scroll to the end and skim up the list of words that only appear 1 time looking for oddities and obvious misspellings.
-- [ ] Click ~Character Cnts~.
+- [X] Open ~Tools → Word Frequency~. Click on an entry to jump to it.
+- [X] Choose ~Freq~ and ~All Words~. List is now sorted by word frequency; scroll to the end and skim up the list of words that only appear 1 time looking for oddities and obvious misspellings.
+- [X] Click ~Character Cnts~.
   - Note characters that appear only once, check usage.
   - Check for equal counts of left & right parens and brackets.
-- [ ] Click ~Emdashes~. This shows words with emdashes in them as well as similar words without emdashes (aka: suspects) marked with ~****~. Check suspects against the text and page images. Preserve author's intent even when inconsistent.
-- [ ] Click ~Hyphens~. Same as Emdashes above but for Hyphens.
-- [ ] Click ~Alpha/num~. Scan list for ~one/ell~ and ~oh/zero~ errors.
-- [ ] Click ~ALL CAPITALS~. Scan list looking for oddities.
-- [ ] Click ~MiXeD CasE~. Scan list looking for letters such as o that sometimes OCR wrongly as uppercase. ~Oh/zero~ errors can show up here, too.
-- [ ] Click ~Diacritics/æ/œ~. Scan list looking for mistakes, inconsistent usages.
-- [ ] Click ~Ital/Bold/SC~. Scan list for incorrect or inconsistent use of italics, bold face, and small caps.
-- [ ] Click ~Ligatures~. Scan list for [[https://www.pgdp.net/wiki/Æ_and_œ_ligatures][incorrect or inconsistent use]] of ~ae~ and ~oe~ ligatures.
+- [X] Click ~Emdashes~. This shows words with emdashes in them as well as similar words without emdashes (aka: suspects) marked with ~****~. Check suspects against the text and page images. Preserve author's intent even when inconsistent.
+- [X] Click ~Hyphens~. Same as Emdashes above but for Hyphens.
+- [X] Click ~Alpha/num~. Scan list for ~one/ell~ and ~oh/zero~ errors.
+- [X] Click ~ALL CAPITALS~. Scan list looking for oddities.
+- [X] Click ~MiXeD CasE~. Scan list looking for letters such as o that sometimes OCR wrongly as uppercase. ~Oh/zero~ errors can show up here, too.
+- [X] Click ~Diacritics/æ/œ~. Scan list looking for mistakes, inconsistent usages.
+- [X] Click ~Ital/Bold/SC~. Scan list for incorrect or inconsistent use of italics, bold face, and small caps.
+- [X] Click ~Ligatures~. Scan list for [[https://www.pgdp.net/wiki/Æ_and_œ_ligatures][incorrect or inconsistent use]] of ~ae~ and ~oe~ ligatures.
 #+begin_src text
 æ Æ    <Opt> '    /ai/ to rhyme with “eye”.
 œ Œ    <Opt> q    /ɔɪ/ to rhyme with “oi” in “foil”
