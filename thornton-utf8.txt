@@ -12,8 +12,8 @@ BY
 
 GAILLARD HUNT
 
-<sc>Reprinted from the Proceedings of the American Antiquarian Society
-for April 1920</sc>
+REPRINTED FROM THE PROCEEDINGS OF THE AMERICAN ANTIQUARIAN SOCIETY
+FOR APRIL 1920
 
 WORCESTER, MASSACHUSETTS, U.S.A.
 PUBLISHED BY THE SOCIETY
@@ -24,8 +24,8 @@ x/
 
 
 /x
-<sc>The Davis Press
-Worcester, Massachusetts</sc>
+THE DAVIS PRESS
+WORCESTER, MASSACHUSETTS
 x/
 
 
@@ -975,9 +975,9 @@ W.T.
 #/
 
 
-<sc>Suggestion to Buy Porto Rico for Free Negroes.</sc>
+SUGGESTION TO BUY PORTO RICO FOR FREE NEGROES.
 
-<sc>Draft, by Thornton</sc> [1802]
+DRAFT, BY THORNTON [1802]
 
 /#
 About the year 88, at the time that the Government of
@@ -1096,9 +1096,9 @@ as to give immense revenues.
 #/
 
 
-<sc>Draft of a Letter to a Newspaper.</sc>
+DRAFT OF A LETTER TO A NEWSPAPER.
 
-<sc>By Thornton</sc> [1816?]
+BY THORNTON [1816?]
 
 /#
 /*
