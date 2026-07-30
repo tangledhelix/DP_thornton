@@ -152,7 +152,7 @@ Europe would go unheeded.
 
 In 1793 the American Philosophical Society awarded
 him the Magellanic gold medal for his essay entitled
-“<i>Cadmus</i>; or a Treatise on the Elements of Written
+“_Cadmus_; or a Treatise on the Elements of Written
 Language, Illustrated by a Philosophical division of
 Speech, the power of each character, thereby mutually
 fixing the orthography and orthoepy, with an Essay
@@ -549,7 +549,7 @@ J Doty
 */
 
 /*
-<i>Friday Morning</i>
+_Friday Morning_
 
 Doctor Thornton
 */
@@ -559,7 +559,7 @@ Doctor Thornton
 /#
 General Outlines of a Settlement on the Coast of Africa
 particularly that part under the Appellation of the Tooth-Ivory
-Coast. In the Language of the Blacks <i>Quaqua</i>.--[by
+Coast. In the Language of the Blacks _Quaqua_.--[by
 Thornton].
 
 This part of the Coast is chosen because it enjoys as good
@@ -757,7 +757,7 @@ WILLIAM THORNTON TO ÉTIENNE CLAVIÈRE [1788]
 /#
 /*
 Mons.^r [Étienne] Clavière
-<i>President de la Societe des Amis des Noirs</i>
+_President de la Societe des Amis des Noirs_
 
 Respected Friend
 */
@@ -779,7 +779,7 @@ nobleness of Character which has distinguished your People
 rouse you to assert for the Africans those privileges that are
 claimed so loudly by the French! then will their solemn
 appeals to Heaven and to Earth for the Rights of Man be
-marked with consistency, requiring that <i>all</i> Men are <i>equally</i>
+marked with consistency, requiring that _all_ Men are _equally_
 entitled by Nature to the same Favours! Thus shall each
 name that dignifies your Society do honor to human Nature,
 and when the Trumpet of Fame has done sounding the names
@@ -849,7 +849,7 @@ pain of Death any Traders from making Slaves within a few
 Degrees North and South of the Settlement--Prudence is to be
 admired, but no difficulties ought to overcome the Minds of
 Men engaged in the Cause of Virtue. Liberty is now alive:
-Let her not die <i>till she visit another</i> Quarter of the Earth--You
+Let her not die _till she visit another_ Quarter of the Earth--You
 are not immortal, and know not who shall succeed you. The
 Sun shineth today--to-morrow may never come.--No political
 objection can be urged against the Plan. The Manufacturing
@@ -877,7 +877,7 @@ Interest of the West India Planters than the increase of their
 Revenues though at the expense of the Subjects resident in
 either Kingdom, they might lay such high Duties on the
 African Sugar as to be prohibitory, or at least equivalent to a
-Bounty on West India Sugars, till <i>true</i> policy should open the
+Bounty on West India Sugars, till _true_ policy should open the
 Eyes of European Politicians, and force them to urge the
 eternal abolition of Slavery.
 
@@ -939,7 +939,7 @@ ought to be pursued on the Coast of Africa or in some other
 foreign situation.[10]”
 
 Such is his Opinion, and he further intimated that Slavery
-is not likely to be <i>ever</i> abolished in the Southern States of
+is not likely to be _ever_ abolished in the Southern States of
 America till an Asylum be provided to which the manumitted
 Blacks may be sent.
 
@@ -1057,7 +1057,7 @@ restored at the conclusion of the War, but if retained they
 would only have thrown the same quantity of Sugar into a
 different Channel without actually increasing it & there could
 be less objection to their being retained. If the American
-Government were opposed to <i>purchasing</i> the Island there is no
+Government were opposed to _purchasing_ the Island there is no
 doubt it would be ceded by our giving way in the Settlement
 of our Western Limits of Louisiana--for if a serious demand
 were to be made of the Rio Bravo or Rio del Norte as our
@@ -1172,8 +1172,8 @@ known to be iniquitous, for a fee. I speak to you Citizens,
 without your accustomed homage, & I call upon you to publish
 what I write if you have any of the spirit of ’76. It was then
 that men dared to think, and to write. It was then that those
-bold and home Truths were told in the Pages of <i>Common
-Sense</i>. But the Times have changed, & I call upon you my
+bold and home Truths were told in the Pages of _Common
+Sense_. But the Times have changed, & I call upon you my
 Countrymen to resume your native energies.
 
 When this Country declared its Independence the Inhabitants
@@ -1418,7 +1418,7 @@ Son, No. 22, Market Street, M.DCC.XCIII.]
 
 [Footnote 4: William Thornton and John Fitch, by Gaillard Hunt, in The Nation, May 21, 1914.]
 
-[Footnote 5: See in <i>Harper’s Weekly</i> for Oct. 1, 1910, “The Remarkable Case of William Kemble,”
+[Footnote 5: See in _Harper’s Weekly_ for Oct. 1, 1910, “The Remarkable Case of William Kemble,”
 based on one of Thornton’s papers.]
 
 [Footnote 6: Memoirs of the Life and Writings of the late John Coakley Lettsom, M.D., LL.D.,
