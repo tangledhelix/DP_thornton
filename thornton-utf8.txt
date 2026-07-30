@@ -2,7 +2,6 @@
 
 
 
-/x
                       American Antiquarian Society
 
                           WILLIAM THORNTON AND
@@ -17,15 +16,12 @@
                     WORCESTER, MASSACHUSETTS, U.S.A.
                         PUBLISHED BY THE SOCIETY
                                   1921
-x/
 
 
 
 
-/x
                             THE DAVIS PRESS
                         WORCESTER, MASSACHUSETTS
-x/
 
 
 
@@ -334,10 +330,7 @@ President of the “Société des Amis des Noirs.”
 
                       J. DOTY TO WILLIAM THORNTON
 
-/#
-/r
                                                         [Tortola] [1786]
-r/
 
   Dear Sir
 
@@ -429,19 +422,15 @@ r/
   or at any subsequent meeting, I shall be happy in communicating to
   the members, any further information on this Subject, which you shall
   think proper and necessary to be submitted to their consideration.
-#/
 
-/x
                                   I am
                                            Sir
   _Friday Morning_                          with great Respect
                                         Your most obedient Servant
                                                           J Doty
   Doctor Thornton
-x/
 
 
-/#
   General Outlines of a Settlement on the Coast of Africa particularly
   that part under the Appellation of the Tooth-Ivory Coast. In the
   Language of the Blacks _Quaqua_.--[by Thornton].
@@ -554,13 +543,9 @@ x/
   most high, but my Friends what infinity of happiness shall be theirs
   who deliver from bondage & call unto Christ so many Thousand Souls!
 
-/r
                                                                    W. T.
-r/
-#/
 
 
-/#
   To the Black Inhabitants of Pennsylvania, assembled at one of their
   stated Meetings in Philadelphia. [Draft by Thornton].
 
@@ -603,9 +588,7 @@ r/
   will sign their Names, Ages, Trades and Families, &c., in the
   following, or a similar manner.
 
-/x
                Names      Ages      Trades      Families
-x/
 
   The immediate Exports from Africa to Europe would be Gold Dust,
   Ivory, Cotton, Dying Woods, Gums, Drugs, Spices, Fruits and
@@ -614,17 +597,13 @@ x/
   but with the Addition of Cocoa, Coffee, Sugar & its products &c, as
   the Americans have no Colonies with which such productions would
   interfere.
-#/
 
 
               WILLIAM THORNTON TO ÉTIENNE CLAVIÈRE [1788]
 
-/x
   Mons.^r [Étienne] Clavière
   _President de la Societe des Amis des Noirs_
-x/
 
-/#
   Respected Friend
 
   Thy Letter with which I was lately honored is truly interesting & I
@@ -807,20 +786,16 @@ x/
   the honorary dignities of a Kingdom; but you disinterestedly raise
   your Voice in favour of many Nations, to preserve the Lives of many
   Millions, and in defence of the dearest rights of Man!!--
-#/
 
-/x
   I am with the greatest regard & esteem
                              thy respectful Friend
                                                       W.T.
-x/
 
 
              SUGGESTION TO BUY PORTO RICO FOR FREE NEGROES.
 
                        DRAFT, BY THORNTON [1802]
 
-/#
   About the year 88, at the time that the Government of England was
   engaged in settling a free Colony at Sierra Leone the Americans in
   New England were desirous of sending all the free Blacks from that
@@ -923,14 +898,12 @@ x/
   Lands. Upon these Principles the English the Danes the Dutch & others
   have established Settlements which have been so productive as to give
   immense revenues.
-#/
 
 
                    DRAFT OF A LETTER TO A NEWSPAPER.
 
                           BY THORNTON [1816?]
 
-/#
   Mess^{rs}. Editors
 
   The Cause of the Blacks has called forth the energetic power of
@@ -1029,13 +1002,9 @@ x/
   these speaking the English Language will give such advantages to our
   Commerce as to render us in a few years the most potent Nation in the
   World.
-#/
 
 
-/#
-/r
                                                        [December, 1816.]
-r/
 
   To the honorable Henry Clay, Chairman of the Assembly for promoting
   the establishment of a free and independ^t. Nation of Blacks in
@@ -1189,10 +1158,7 @@ r/
   of Christianity & be happy; thus millions unnumbered in singing
   halelujahs to our God, would bless the Children of the West!
 
-/r
                                                                    W: T:
-r/
-#/
 
 
 
