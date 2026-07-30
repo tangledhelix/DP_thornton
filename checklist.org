@@ -17,6 +17,7 @@
 - Languages:
   - [ ] Latin: footnote 3(?)
   - [ ] French: 006, 019 (Clavière's title)
+  - [ ] French: a few phrases maybe, look for word ~Amis~
 - Abbreviations
   - Numerous superscript abbrs to watch for
     - [ ] ~^~ in text
@@ -184,13 +185,13 @@ Instructions for ~/* */~ and ~/# #/~ blocks:
   - [X] Search based on ~en-common.json~. Work through the list.
   - [X] Search based on ~misspelled.json~. Work through the list.
   - [X] Search based on ~regex.json~. Work through the list.
-- [ ] ~Tools → Jeebies~. Examine its report of possible ~he/be~ errors.
-- [ ] ~Tools → Regex Library~. Run my custom ~misc_checks.json~.
+- [X] ~Tools → Jeebies~. Examine its report of possible ~he/be~ errors.
+- [X] ~Tools → Regex Library~. Run my custom ~misc_checks.json~.
 *** Apply Bookloupe
-- [ ] ~Tools → Bookloupe~.
+- [X] ~Tools → Bookloupe~.
 *** Spelling and Distance Checks
-- [ ] If any languages known to be in the book aren't in the Lang: setting, add them (e.g. ~en+fr~). Only tag languages we have a dictionary for. (More dictionaries are available; see [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_2_Manual/Tools_Menu#Spelling][the wiki]].)
-- [ ] Use ~Tools → Spelling~. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
+- [X] If any languages known to be in the book aren't in the Lang: setting, add them (e.g. ~en+fr~). Only tag languages we have a dictionary for. (More dictionaries are available; see [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_2_Manual/Tools_Menu#Spelling][the wiki]].)
+- [X] Use ~Tools → Spelling~. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
 - [ ] Use ~Tools → Word Distance Check~.
 *** Fix Poetry Line Numbers
 - [ ] If the book has poetry that uses line numbers, read [[https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers][this page]] and align the line numbers consistently.
