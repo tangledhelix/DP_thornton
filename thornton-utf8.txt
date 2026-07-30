@@ -3,29 +3,28 @@
 
 
 /x
-American Antiquarian Society
+                      American Antiquarian Society
 
-WILLIAM THORNTON AND
-NEGRO COLONIZATION
+                          WILLIAM THORNTON AND
+                           NEGRO COLONIZATION
 
-BY
+                                   BY
+                             GAILLARD HUNT
 
-GAILLARD HUNT
+   REPRINTED FROM THE PROCEEDINGS OF THE AMERICAN ANTIQUARIAN SOCIETY
+                             FOR APRIL 1920
 
-REPRINTED FROM THE PROCEEDINGS OF THE AMERICAN ANTIQUARIAN SOCIETY
-FOR APRIL 1920
-
-WORCESTER, MASSACHUSETTS, U.S.A.
-PUBLISHED BY THE SOCIETY
-1921
+                    WORCESTER, MASSACHUSETTS, U.S.A.
+                        PUBLISHED BY THE SOCIETY
+                                  1921
 x/
 
 
 
 
 /x
-THE DAVIS PRESS
-WORCESTER, MASSACHUSETTS
+                            THE DAVIS PRESS
+                        WORCESTER, MASSACHUSETTS
 x/
 
 
@@ -438,9 +437,7 @@ J. DOTY TO WILLIAM THORNTON
 [Tortola] [1786]
 r/
 
-/*
 Dear Sir
-*/
 
 I informed you I would transmit to you early intelligence of
 the determination of the members of the House of Assembly
@@ -539,21 +536,16 @@ on which day, or at any subsequent meeting, I shall be happy
 in communicating to the members, any further information
 on this Subject, which you shall think proper and necessary to
 be submitted to their consideration.
-
-/*
-I am
-Sir
-with great Respect
-Your most obedient Servant
-J Doty
-*/
-
-/*
-_Friday Morning_
-
-Doctor Thornton
-*/
 #/
+
+/x
+                                  I am
+                                           Sir
+  _Friday Morning_                          with great Respect
+                                        Your most obedient Servant
+                                                          J Doty
+  Doctor Thornton
+x/
 
 
 /#
@@ -738,9 +730,9 @@ It is requested that those who may be disposed to embark
 for Africa will sign their Names, Ages, Trades and Families,
 &c., in the following, or a similar manner.
 
-/*
-Names      Ages      Trades      Families
-*/
+/x
+    Names      Ages      Trades      Families
+x/
 
 The immediate Exports from Africa to Europe would be
 Gold Dust, Ivory, Cotton, Dying Woods, Gums, Drugs,
@@ -754,13 +746,13 @@ no Colonies with which such productions would interfere.
 
 WILLIAM THORNTON TO ÉTIENNE CLAVIÈRE [1788]
 
-/#
-/*
-Mons.^r [Étienne] Clavière
-_President de la Societe des Amis des Noirs_
+/x
+  Mons.^r [Étienne] Clavière
+  _President de la Societe des Amis des Noirs_
+x/
 
+/#
 Respected Friend
-*/
 
 Thy Letter with which I was lately honored is truly interesting
 & I perused it with most satisfaction, and think myself
@@ -964,15 +956,13 @@ or a Family; you support not the honorary dignities of a
 Kingdom; but you disinterestedly raise your Voice in favour of
 many Nations, to preserve the Lives of many Millions, and in
 defence of the dearest rights of Man!!--
-
-/*
-I am with the greatest regard & esteem
-
-thy respectful Friend
-
-W.T.
-*/
 #/
+
+/x
+  I am with the greatest regard & esteem
+                             thy respectful Friend
+                                                      W.T.
+x/
 
 
 SUGGESTION TO BUY PORTO RICO FOR FREE NEGROES.
@@ -1101,9 +1091,7 @@ DRAFT OF A LETTER TO A NEWSPAPER.
 BY THORNTON [1816?]
 
 /#
-/*
 Mess^{rs}. Editors
-*/
 
 The Cause of the Blacks has called forth the energetic power
 of England, & Cruisers have been sent to the Coast of Africa
@@ -1223,9 +1211,7 @@ To the honorable Henry Clay, Chairman of the Assembly for
 promoting the establishment of a free and independ^t. Nation
 of Blacks in Africa [draft by Thornton.]
 
-/*
 Sir
-*/
 
 My public Duties did not permit my personal attendance
 at the meeting lately held for this praise-worthy object but I
