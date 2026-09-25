@@ -1,442 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
-    <title>
-      William Thornton and negro colonization | Project Gutenberg
-    </title>
-    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
-    <style>
-
-body {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    text-align: center; /* all headings centered */
-    clear: both;
-}
-
-p {
-    margin-top: .5em;
-    text-align: justify;
-    margin-bottom: .5em;
-}
-
-.p2       {margin-top: 2em;}
-.p4       {margin-top: 4em;}
-.p6       {margin-top: 6em;}
-
-hr {
-    width: 33%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 33.5%;
-    margin-right: 33.5%;
-    clear: both;
-}
-
-hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
-hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
-@media print { hr.chap {display: none; visibility: hidden;} }
-hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
-
-hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
-hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
-hr.hrimage {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 2em;
-    width: 100%;
-    border: 0;
-    margin: 1em 0;
-}
-
-div.chapter {page-break-before: always;}
-h2.nobreak  {page-break-before: avoid;}
-
-ul.index { list-style-type: none; }
-li.ifrst {
-    margin-top: 1em;
-    text-indent: -2em;
-    padding-left: 1em;
-}
-li.indx  {
-    margin-top: .5em;
-    text-indent: -2em;
-    padding-left: 1em;
-}
-li.isub1 {
-    text-indent: -2em;
-    padding-left: 2em;
-}
-li.isub2 {
-    text-indent: -2em;
-    padding-left: 3em;
-}
-li.isub3 {
-    text-indent: -2em;
-    padding-left: 4em;
-}
-li.isub4 {
-    text-indent: -2em;
-    padding-left: 5em;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-}
-td, th { padding: 0.25em; }
-
-/* Classes to support ToC using list & flex */
-.toc-wrap {
-    max-width: 30em;
-    margin: 0 auto;
-    text-align: left;
-}
-.toc-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.toc-head {
-    font-weight: bold;
-    font-variant: small-caps;
-}
-.toc-entry {
-    display: flex;
-    line-height: 1.5;
-}
-.toc-num {
-    flex: 0 0 4em;
-    text-align: right;
-}
-.toc-title {
-    flex: 1 1 auto;
-    margin-left: 2em;
-    text-indent: -1em;
-}
-.toc-page {
-    flex: 0 0 5em;
-    margin-left: 1em;
-    text-align: right;
-    align-self: flex-end;
-}
-
-.tdl      {text-align: left;}
-.tdr      {text-align: right;}
-.tdc      {text-align: center;}
-
-.pagenum { /* uncomment the next line for invisible page numbers */
-    /*  visibility: hidden;  */
-    position: absolute;
-    left: 92%;
-    font-size: small;
-    text-align: right;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-indent: 0;
-} /* page numbers */
-
-.linenum {
-    position: absolute;
-    top: auto;
-    left: 4%;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-} /* poetry number */
-
-blockquote {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 10%;
-}
-
-.sidenote {
-    width: 20%;
-    padding-bottom: .5em;
-    padding-top: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
-    margin-left: 1em;
-    float: right;
-    clear: right;
-    margin-top: 1em;
-    font-size: small;
-    color: black;
-    background: #eeeeee;
-    border: 1px dashed;
-}
-
-.bb       {border-bottom: 2px solid;}
-
-.bl       {border-left: 2px solid;}
-
-.bt       {border-top: 2px solid;}
-
-.br       {border-right: 2px solid;}
-
-.bbox     {border: 2px solid;}
-
-.center   {text-align: center; text-indent: 0;}
-
-.right    {text-align: right;}
-
-.smcap    {font-variant: small-caps;}
-
-.allsmcap {font-variant: small-caps; text-transform: lowercase;}
-
-.u        {text-decoration: underline;}
-
-.gesperrt
-{
-    font-style: normal;
-    letter-spacing: 0.2em;
-    margin-right: -0.2em;
-}
-.x-ebookmaker-2 .gesperrt {
-    font-style: italic;
-    letter-spacing: normal;
-    margin-right: 0em;
-}
-
-figcaption   {font-weight: bold;}
-figcaption p {margin-top: 0; margin-bottom: .2em; text-align: inherit;}
-
-/* Images */
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-img.w100 {width: 100%;}
 
 
-.figcenter {
-    margin: auto;
-    text-align: center;
-    page-break-inside: avoid;
-    max-width: 100%;
-}
-
-.figleft {
-    float: left;
-    clear: left;
-    margin-left: 0;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-right: 1em;
-    padding: 0;
-    text-align: center;
-    page-break-inside: avoid;
-    max-width: 100%;
-}
-/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
-.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
-/* .x-ebookmaker .figleft {float: left;} */
-
-.figright {
-    float: right;
-    clear: right;
-    margin-left: 1em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin-right: 0;
-    padding: 0;
-    text-align: center;
-    page-break-inside: avoid;
-    max-width: 100%;
-}
-/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
-.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
-/* .x-ebookmaker .figright {float: right;} */
-
-/* Footnotes */
-.footnotes        {border: 1px dashed;}
-
-.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
-
-.footnote .label  {position: absolute; right: 84%; text-align: right;}
-
-.fnanchor {
-    vertical-align: super;
-    font-size: .8em;
-    text-decoration:
-    none;
-}
-
-/* Poetry */
-/* uncomment the next line for centered poetry */
-/* .poetry-container {display: flex; justify-content: center;} */
-.poetry-container {text-align: center;}
-.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
-.poetry .stanza   {margin: 1em auto;}
-.poetry .verse    {text-indent: -3em; padding-left: 3em;}
-
-/* Transcriber's notes */
-.transnote {background-color: #E6E6FA;
-    color: black;
-    font-size:small;
-    padding:0.5em;
-    margin-bottom:5em;
-    font-family:sans-serif, serif;
-}
 
 
-/* indent paragraphs, reset justification */
-p { text-indent: 1em; text-align: start; }
-p.noindent { text-indent: 0; }
-
-/* de-emphasize page numbers */
-.pagenum { color: #bbbbbb; }
-
-/* footnote block styling */
-.footnotes {
-    border: 1px dashed #aaaaaa;
-    margin-top: 1.5em;
-}
-
-/* TN styling */
-.transnote {
-    background-color: inherit;
-    border: 1px dashed #bbbbbb;
-    margin-top: 3em;
-    page-break-before: always;
-}
-
-/* Don't visibly style abbr tags. Browsers usually underline them. */
-abbr, abbr[title] {
-    text-decoration: none;
-}
-/* abbrs that should be read letter-by-letter */
-abbr.spell { speak: spell-out; }
-
-/* "gray bar" blockquotes */
-/*blockquote {
-    border-left: .15em solid #c8c8c8;
-    padding-left: .7em;
-    margin-left: 4%;
-    margin-right: 8%;
-}*/
-
-/* don't wrap; better than invisible word joiner char? */
-.nowrap { white-space: nowrap; }
-
-/* remove italic styling, e.g. on a <cite> */
-.nonitalic { font-style: normal; }
-
-/* hanging indent */
-.hanging2 {
-  padding-left: 2em;
-  text-indent: -2em;
-}
-
-/* drop caps */
-p.drop-cap { text-indent: 0em; }
-p.drop-cap::first-letter {
-  float: left;
-  margin: 0 0.1em 0 0;
-  font-size: 250%;
-  line-height:0.85em;
-}
-.uppercase { text-transform: uppercase; }
-
-/* disable drop caps for EPUB2 */
-.x-ebookmaker-2  p.drop-cap::first-letter {
-  float: none;
-  margin: 0;
-  font-size: 100%;
-}
-
-
-    </style>
-</head>
-<body>
-
-
-<p><span class="pagenum" id="Page_1" role="doc-pagebreak">1</span></p>
-
-<!-- Autogenerated TOC. Modify or delete as required. -->
-<nav data-epub-type="toc">
-<div class="toc-wrap">
-<ul class="toc-list">
-  <!-- Header row -->
-  <!--<li class="toc-entry toc-head">
-    <span class="toc-num">Chap.</span>
-    <span class="toc-title">Title</span>
-    <span class="toc-page">Page</span>
-  </li>-->
-  <li class="toc-entry">
-    <!--<span class="toc-num">##</span>-->
-    <a class="toc-title" href="#WILLIAM_THORNTON_AND_NEGRO">WILLIAM THORNTON AND NEGRO COLONIZATION BY GAILLARD HUNT</a>
-    <!--<span class="toc-page">NN</span>-->
-  </li>
-  <li class="toc-entry">
-    <!--<span class="toc-num">##</span>-->
-    <a class="toc-title" href="#FOOTNOTES">FOOTNOTES:</a>
-    <!--<span class="toc-page">NN</span>-->
-  </li>
-</ul>
-</div>
-</nav>
-<!-- End Autogenerated TOC. -->
-
-
-<pre>
+/x
 American Antiquarian Society
 
-<h1>
-WILLIAM THORNTON AND<br>
+WILLIAM THORNTON AND
 NEGRO COLONIZATION
-</h1>
-
 
 BY
 
 GAILLARD HUNT
 
-<span class="smcap">Reprinted from the Proceedings of the American Antiquarian Society
-for April 1920</span>
+<sc>Reprinted from the Proceedings of the American Antiquarian Society
+for April 1920</sc>
 
 WORCESTER, MASSACHUSETTS, U.S.A.
 PUBLISHED BY THE SOCIETY
 1921
-</pre>
-
-<p><span class="pagenum" id="Page_2" role="doc-pagebreak">2</span></p>
+x/
 
 
-<pre>
-<span class="smcap">The Davis Press
-Worcester, Massachusetts</span>
-</pre>
 
 
-<hr class="chap x-ebookmaker-drop" aria-hidden="true">
-<div class="chapter">
-
-<p><span class="pagenum" id="Page_3" role="doc-pagebreak">3</span></p>
-
-
-  <h2 class="nobreak" id="WILLIAM_THORNTON_AND_NEGRO">
-    WILLIAM THORNTON AND NEGRO
-    COLONIZATION
-    <br>
-    BY GAILLARD HUNT
-  </h2>
-</div>
+/x
+<sc>The Davis Press
+Worcester, Massachusetts</sc>
+x/
 
 
-<p>In the Caribbean Sea, stretching eastward from
+
+
+WILLIAM THORNTON AND NEGRO
+COLONIZATION
+
+BY GAILLARD HUNT
+
+
+In the Caribbean Sea, stretching eastward from
 Porto Rico, lies a group of about one hundred small
 islands, some mere rocks in the sea furnishing no
 sustenance for human beings, and some of larger size
@@ -459,13 +60,13 @@ is unprofitable, the island is almost deserted; but in
 the eighteenth century it flourished, and a few planters
 and numerous black slaves lived there prosperously
 and contentedly. In 1756 the whole population of the
-island was 460 white persons and 3,864 negro slaves.&#x2060;<a id="FNanchor_1_1" href="#Footnote_1_1" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[1]</a>&#x2060;</p>
+island was 460 white persons and 3,864 negro slaves.[1]
 
-<p>Chief among the planters was an English Quaker
-<span class="pagenum" id="Page_4" role="doc-pagebreak">4</span>named Thornton and over his household presided his
-young wife, Dorcas Downing Zeagurs.&#x2060;<a id="FNanchor_2_2" href="#Footnote_2_2" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[2]</a>&#x2060;</p>
+Chief among the planters was an English Quaker
+named Thornton and over his household presided his
+young wife, Dorcas Downing Zeagurs.[2]
 
-<p>On May 27, 1761, their son William was born. I
+On May 27, 1761, their son William was born. I
 have fixed the year approximately by circumstantial
 evidence; for he never disclosed it and there are no
 vital statistics for Tortola. When William Thornton
@@ -500,7 +101,7 @@ The Governor was rich and had married an heiress
 himself, but he rejected Thornton’s overtures because
 he thought his daughter was too young to marry, she
 being only sixteen years old. The lover could not
-<span class="pagenum" id="Page_5" role="doc-pagebreak">5</span>wait for her to grow older, and went back to Tortola
+wait for her to grow older, and went back to Tortola
 in April, 1788. He intended to settle in America,
 however, and had been naturalized as a citizen of
 Delaware on January 7, 1788. When he reached the
@@ -530,9 +131,9 @@ she saw that her son-in-law was a remarkable man,
 and she yielded, as others did, to his charm of manner
 and conversation, his sprightliness and enthusiasm
 which made him more like a Frenchman than an
-Englishman.</p>
+Englishman.
 
-<p>At the time of his marriage he was thirty years old,
+At the time of his marriage he was thirty years old,
 of medium height, with regular features, brown hair
 and English complexion, an aquiline nose, active in
 body and abnormally active in mind. There was
@@ -540,16 +141,16 @@ hardly a man in America who had received a scientific
 education equal to his, for the Americans who studied
 abroad usually went through a classical course only,
 but Thornton, having received a rudimentary classical
-<span class="pagenum" id="Page_6" role="doc-pagebreak">6</span>education, had studied medicine and chemistry and
+education, had studied medicine and chemistry and
 then botany and other branches of natural science.
 The young man was no adventurer, nor was he
 penniless, for the plantation yielded him an income
 which was, however, not always certain. By nature
 he was a fearless idealist and believed that the New
 World would welcome plans and projects which in
-Europe would go unheeded.</p>
+Europe would go unheeded.
 
-<p>In 1793 the American Philosophical Society awarded
+In 1793 the American Philosophical Society awarded
 him the Magellanic gold medal for his essay entitled
 “<i>Cadmus</i>; or a Treatise on the Elements of Written
 Language, Illustrated by a Philosophical division of
@@ -562,11 +163,11 @@ new system of letters and spelling to the teaching of the
 deaf to speak. Much of the argument has become
 familiar to later generations in the literature concerning
 Volapuk, Esperanto, simplified spelling and visible
-speech.&#x2060;<a id="FNanchor_3_3" href="#Footnote_3_3" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[3]</a>&#x2060;</p>
+speech.[3]
 
-<p>Before Thornton attracted attention in this field he
+Before Thornton attracted attention in this field he
 had become the patron, friend and coadjutor of John
-Fitch.&#x2060;<a id="FNanchor_4_4" href="#Footnote_4_4" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[4]</a> He made John Fitch’s steamboat a success.
+Fitch.[4] He made John Fitch’s steamboat a success.
 Twenty years later he swore that Robert Fulton had
 stolen the plans of the boat. It was soon after his
 experiments with the steamboat began that he
@@ -574,7 +175,7 @@ invented a steam cannon which drove twenty-four
 bullets successively in two minutes through a plank
 an inch thick, but this rapid-fire gun he considered to
 be more curious than useful. In 1792 his plans for
-<span class="pagenum" id="Page_7" role="doc-pagebreak">7</span>the new Capitol building at Washington were accepted.
+the new Capitol building at Washington were accepted.
 He had previously designed the Philadelphia Library
 Building. Subsequently, he designed several other
 buildings including some beautiful private houses, a
@@ -599,7 +200,7 @@ from his pen in endless numbers, but he never wrote a
 book and he could not be called an author. His
 writings cover a bewildering multitude of subjects—negro
 colonization and emancipation, a national
-university, landscape gardening, somnambulism,&#x2060;<a id="FNanchor_5_5" href="#Footnote_5_5" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[5]</a>
+university, landscape gardening, somnambulism,[5]
 South American independence, the breeding of horses,
 city building, George Washington, to mention only a
 few. Of no circumstance in his life was he as proud
@@ -611,7 +212,7 @@ succeed him. The President’s reply to him saying he
 had chosen his wife’s kinsman, Bartholomew Dandridge,
 was warm and friendly in tone. Washington
 appointed him a Commissioner of the new federal
-<span class="pagenum" id="Page_8" role="doc-pagebreak">8</span>district in 1794, moved to the selection, doubtless,
+district in 1794, moved to the selection, doubtless,
 because he wished him to have oversight of the
 construction of the building he had designed, because
 he believed him to be a genius in planning generally,
@@ -628,9 +229,9 @@ must be an agricultural institution on a comprehensive
 scale—that government, art, science, learning,
 mechanics, husbandry, all must have their central
 point in the new city which this modern Cadmus
-hoped to build.</p>
+hoped to build.
 
-<p>Thornton fairly revelled in the intimacy with
+Thornton fairly revelled in the intimacy with
 Washington. He wrote to his friends in England
 about it; he planned to become Washington’s Boswell
 and to record his daily sayings and doings; but he
@@ -650,10 +251,10 @@ pay for the work as it progressed. He helped
 Washington’s nephew, Lewis, in planning his country
 house. Mrs. Washington appealed to him on occasion
 as a physician and often intrusted him with those
-<span class="pagenum" id="Page_9" role="doc-pagebreak">9</span>small household commissions which are a sure sign of
-intimacy.</p>
+small household commissions which are a sure sign of
+intimacy.
 
-<p>After Thornton had served as Commissioner of the
+After Thornton had served as Commissioner of the
 District of Columbia for five years, the office was
 abolished and he became Superintendent of the
 Patent Office, then under the Department of State,
@@ -676,9 +277,9 @@ North and South Columbia”—a fantastic plan for
 uniting the whole Western Hemisphere under one
 government with the capital on the Isthmus of
 Darien. He wanted to be a minister to one of the
-South American republics.</p>
+South American republics.
 
-<p>He was a contentious man, and the habit grew on
+He was a contentious man, and the habit grew on
 him as he grew older. He was a writer of long,
 explanatory, circumstantial letters, all true enough
 but doubtless wearisome to receive. He quarreled
@@ -691,23 +292,23 @@ questions. He became a man with grievances and
 claims. I have read a great many of these letters and
 they seem convincing that he was right. Nevertheless,
 I can imagine how sorry his correspondents were
-<span class="pagenum" id="Page_10" role="doc-pagebreak">10</span>to receive them, how reluctantly they read them, and
+to receive them, how reluctantly they read them, and
 how difficult they found it to answer them, knowing,
 as they did, that he would be sure to write more long
-letters in reply.</p>
+letters in reply.
 
-<p>He was an unconquerable man and he never grew
+He was an unconquerable man and he never grew
 old. When he died on March 28, 1828, at the age of 67,
 he was still planning, still contending, still hoping for
 that leadership and success which he had resolved
-should be his when he started out in life.</p>
+should be his when he started out in life.
 
-<p>I have said that Thornton wrote on negro colonization
+I have said that Thornton wrote on negro colonization
 and emancipation, and his connection with this
 subject I shall now develop by several of his surviving
-papers.</p>
+papers.
 
-<p>I must turn first to another West Indian, who like
+I must turn first to another West Indian, who like
 Thornton was born in the Virgin Islands, who was also
 a Quaker, a physician, an emancipationist and a
 scientist of varied accomplishments and great curiosity.
@@ -716,7 +317,7 @@ London when Thornton came upon the scene, being
 some seventeen years older than Thornton, and to him
 Thornton appealed for assistance in his plans for
 helping the negroes to be free and the free negroes to
-become useful members of society.&#x2060;<a id="FNanchor_6_6" href="#Footnote_6_6" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[6]</a> For Thornton’s
+become useful members of society.[6] For Thornton’s
 benefit Lettsom obtained an account from Granville
 Sharp of his experiment at Sierra Leone. Granville
 Sharp was a philanthropist and pamphleteer, a
@@ -731,7 +332,7 @@ been bought for a trifling sum from King Tom, a negro
 chief. The King not only sold his territory but his
 subjects as well. He was in the slave trade, and did,
 in fact, sell some of the free negro colonists when their
-<span class="pagenum" id="Page_11" role="doc-pagebreak">11</span>number became few and they could not resist him.
+number became few and they could not resist him.
 To Sierra Leone, Sharp and several others, with the
 aid of the British Government, sent some four hundred
 wretched negroes early in 1787. They were the
@@ -744,9 +345,9 @@ and by drunkenness from the rum which was
 served to them as a part of their rations. Only two
 hundred and seventy-six got to Sierra Leone. A few
 months later only one hundred and thirty of these
-were still in the Colony.</p>
+were still in the Colony.
 
-<p>Doctor Lettsom’s friend, Henry Smeathman,&#x2060;<a id="FNanchor_7_7" href="#Footnote_7_7" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[7]</a> a
+Doctor Lettsom’s friend, Henry Smeathman,[7] a
 scientific explorer who had lived for several years on
 the West Coast of Africa, was the originator of the
 Sierra Leone experiment, and when Thornton heard
@@ -766,7 +367,7 @@ gradually before they were emancipated. He hoped
 in this way to arouse in them habits of independence.
 He said that in Africa a commonwealth should be
 founded. He worked out his plan in detail. It
-<span class="pagenum" id="Page_12" role="doc-pagebreak">12</span>included, as he was then a Quaker, disarming the
+included, as he was then a Quaker, disarming the
 inhabitants and the making of inviolable treaties of
 peace with all the world. His activities extended to
 the free negroes in America. He told Lettsom,
@@ -805,7 +406,7 @@ would fit out transports himself for that purpose. In
 the French emancipation society, “Les Amis des
 Noirs,” but he appears to have derived only moral
 encouragement from that source. He thought he
-<span class="pagenum" id="Page_13" role="doc-pagebreak">13</span>could do more good in Africa than he could anywhere
+could do more good in Africa than he could anywhere
 else on the globe, but he must have the “superintendence
 of the undertaking.” (To Lettsom Nov. 13,
 1789.) He was then a bachelor, and had no ties to
@@ -819,31 +420,29 @@ English language, giving all the roots of words and
 their true spelling, which had never been properly
 given. By 1794 he was telling Lettsom about the
 new capital, which he thought would be “one of the
-most elegant cities in the world.” (January 8, 1795.)</p>
+most elegant cities in the world.” (January 8, 1795.)
 
-<p>When Thornton was deep in his colonization plans
+When Thornton was deep in his colonization plans
 he laid them before Samuel Adams, as we have seen,
 and he approved of them, and he found encouragement
 and assistance from James Madison who wrote out
 for him certain considerations which he incorporated
 in his letter to the President of the “Société des Amis
-des Noirs.”</p>
+des Noirs.”
 
 
-<h3 id="J_DOTY_TO_WILLIAM_THORNTON">
-  J. DOTY TO WILLIAM THORNTON
-</h3>
+J. DOTY TO WILLIAM THORNTON
 
-<blockquote>
-<p class="right">
-  [Tortola] [1786]
-</p>
+/#
+/r
+[Tortola] [1786]
+r/
 
-<p>
-  Dear Sir
-</p>
+/*
+Dear Sir
+*/
 
-<p>I informed you I would transmit to you early intelligence of
+I informed you I would transmit to you early intelligence of
 the determination of the members of the House of Assembly
 on your address to them, and the letter to me which accompanied
 it. I yesterday submitted both to them, and according
@@ -858,7 +457,7 @@ which are the produce of the West Indies, and promoting the
 Interests of Freedom among those people, should not be a very
 popular one in this Country. And some of the members of the
 Assembly seem to be of opinion that such an establishment
-<span class="pagenum" id="Page_14" role="doc-pagebreak">14</span>should it be carried into effect and be successful, will eventually
+should it be carried into effect and be successful, will eventually
 be highly injurious to the Interests of the West India Islands,
 and therefore ought not to be countenanced by them. There
 are some other Gentlemen, who seem desirous of knowing, to
@@ -866,7 +465,7 @@ whom the Colony intended to be established at Sierra Leone
 is to be made Subject; whether it is to be absolutely a dependency
 of Great Britain, or whether it is intended to be only
 placed under the protection of that power, and as to matters
-of Government, Commerce, &amp;c to remain in a state of
+of Government, Commerce, &c to remain in a state of
 Independency. I must confess it appears to me, that a
 discussion of this subject at large, in this, or any other of the
 Islands, will be a fruitless, and futile, undertaking, as the
@@ -905,17 +504,17 @@ principal object of employment with these people, should
 such a Law pass the Legislature, many of them will be deprived
 of the means of subsistence, at least until they have adopted
 some other object of employment. They are not eligible to
-<span class="pagenum" id="Page_15" role="doc-pagebreak">15</span>the holding any publick office of trust, or profit, in many of
+the holding any publick office of trust, or profit, in many of
 the Islands, nor have they a Vote in the election of any
 publick officer, and in some of the Islands (particularly in the
 foreign) they are prohibited from following any but certain
 Trades and employments. In the French Islands their
 situation is much worse than in the English, if the late revolution
 in the government, has not operated to their advantage,
-and in the Danish &amp; Dutch, they are but little removed from
-mere Slaves.</p>
+and in the Danish & Dutch, they are but little removed from
+mere Slaves.
 
-<p>Without reasoning as to the Justice of the distinction which
+Without reasoning as to the Justice of the distinction which
 is universally made between the white Inhabitants and the
 free people of colour, and the very great distance at which the
 Law has placed the one from the other, it is sufficient that the
@@ -933,44 +532,42 @@ it by an exertion of honest industry, and where, finding a fair
 reputation will be an essential prerequisite in the acquirement
 of office, and the good opinion of the Community, it will be
 their Interest to be careful of their moral conduct, and to
-preserve a decent appearance.</p>
+preserve a decent appearance.
 
-<p>The House of Assembly stands adjourned to tuesday next,
+The House of Assembly stands adjourned to tuesday next,
 on which day, or at any subsequent meeting, I shall be happy
 in communicating to the members, any further information
 on this Subject, which you shall think proper and necessary to
-be submitted to their consideration.</p>
+be submitted to their consideration.
 
-<p>
-  I am<br>
-  Sir<br>
-  with great Respect<br>
-  Your most obedient Servant<br>
-  J Doty
-</p>
+/*
+I am
+Sir
+with great Respect
+Your most obedient Servant
+J Doty
+*/
 
-<p>
-  <i>Friday Morning</i><br>
-  <br>
-  Doctor Thornton
-</p>
-</blockquote>
+/*
+<i>Friday Morning</i>
+
+Doctor Thornton
+*/
+#/
 
 
-<blockquote>
-<p>General Outlines of a Settlement on the Coast of Africa
+/#
+General Outlines of a Settlement on the Coast of Africa
 particularly that part under the Appellation of the Tooth-Ivory
 Coast. In the Language of the Blacks <i>Quaqua</i>.—[by
-Thornton].</p>
+Thornton].
 
-<p><span class="pagenum" id="Page_16" role="doc-pagebreak">16</span></p>
-
-<p>This part of the Coast is chosen because it enjoys as good
+This part of the Coast is chosen because it enjoys as good
 Air as any of the Windward Coast, is not so subject to pestilential
 Fevers as the Grain Coast, because it does not contain
-large Rivers.&#x2060;<a id="FNanchor_8_8" href="#Footnote_8_8" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[8]</a>&#x2060;</p>
+large Rivers.[8]
 
-<p>It does not abound so much with Minerals as the Gold
+It does not abound so much with Minerals as the Gold
 Coast, therefore the Water will probably be better. It is
 equally luxuriant with any part, for Nature providing always
 with a Bountiful Hand has placed there the largest Animals
@@ -979,26 +576,26 @@ Cane grows there, naturally, in the most rich manner as Food
 for them. The Natives are much more numerous than on any
 other place on the Windward Coast, for they have generally
 been more peaceable, and have not yet got into the refined
-Species of Traffic i. e. for Men.</p>
+Species of Traffic i. e. for Men.
 
-<p>The European powers have no Forts there, &amp; cannot on that
+The European powers have no Forts there, & cannot on that
 Account be jealous of a Settlement that promises not to interfere
 with their immediate Views. They could be supplied
 with Grain on one side, and Gold Dust for a medium in Traffic
-on the other.</p>
+on the other.
 
-<p>1. The Country must be visited, and Lands purchased of
-the Natives, making a Settlement in a peaceable manner.</p>
+1. The Country must be visited, and Lands purchased of
+the Natives, making a Settlement in a peaceable manner.
 
-<p>2. The Courts of England, France, &amp; the States of America
-to be visited that a Treaty of Commerce with them &amp; the
+2. The Courts of England, France, & the States of America
+to be visited that a Treaty of Commerce with them & the
 Africans may be established. This Treaty not to exclude
 them from a free Trade with any other power, or with the
 whole World: And that any Vessel which may be built in
 Africa or owned there, shall have free admittance into the
 ports which receive their Commodities. If any power shall
 encroach upon the Liberties of the Settlement the most formal
-&amp; fixed Resolution shall be taken never more to trade with that
+& fixed Resolution shall be taken never more to trade with that
 power till Restitution be made, and the other powers in
 treaty will doubtless protect from Insults their commercial
 Allies. The Americans having no Settlement in the torrid
@@ -1007,21 +604,19 @@ would ever be jealous, as this Settlement would be one founded
 in perfect peace, and therefore incapable of assuming or dictating
 to any other. The Articles of Commerce would be, to
 Europe, Cotton, Indigo, Gold Dust, Ivory, Gums, Dying
-Wood, Drugs &amp; Spices; to America the same with the addition
-of Sugar &amp; its products; Cocoa, Coffee &amp;c. as they have no
+Wood, Drugs & Spices; to America the same with the addition
+of Sugar & its products; Cocoa, Coffee &c. as they have no
 Colonies that would interfere with such productions, and as
 their chief dependence is on the Agriculture of their own
-Country, might be supplied with some Manufactures of Africa.</p>
+Country, might be supplied with some Manufactures of Africa.
 
-<p><span class="pagenum" id="Page_17" role="doc-pagebreak">17</span></p>
-
-<p>3. Blacks who are now free in America &amp; Europe, or who
+3. Blacks who are now free in America & Europe, or who
 may be made free in the West Indies hereafter, to be taken to
 the New Settlement carrying with them such Utensils as will
 be requisite to cultivate the Lands, and also to form the
 necessaries of Life. The West India Negroes will be well
 acquainted with the culture of Sugar, Cotton, Indigo, Cocoa,
-Ginger, Coffee, Rice, Corn, (Indian &amp; Guinea) and raising
+Ginger, Coffee, Rice, Corn, (Indian & Guinea) and raising
 such live Stock as is peculiarly adapted to the torrid Zone.
 The Negroes of the Northern Countries, who have been
 amongst Christians (a sect which the poor West India Negroes
@@ -1031,44 +626,44 @@ Natives, might become a sober religious People. The
 northern Negroes too, by the Example of Industry which they
 have been accustomed to behold in the lower Classes of the
 White Inhabitants of those Countries would easily, by
-introducing their acquired Habits &amp; Customs, bring to
-Industrious Lives the ignorant &amp; slothful of the warm Country
-of Africa.</p>
+introducing their acquired Habits & Customs, bring to
+Industrious Lives the ignorant & slothful of the warm Country
+of Africa.
 
-<p>4. The Lands already purchased from the Natives might be
+4. The Lands already purchased from the Natives might be
 divided into portions or Estates according to the number of
 their Family. These might be taxed in a very light degree,
-for the support of—</p>
+for the support of—
 
-<p>5. Schools &amp; religious Houses, which are to be raised by the
-public Stock.</p>
+5. Schools & religious Houses, which are to be raised by the
+public Stock.
 
-<p>6. Such a Trade might be opened with the Africans that
+6. Such a Trade might be opened with the Africans that
 into this Settlement great Riches would be drained from the
 other parts, and the European Powers, particularly Great
-Britain &amp; France and also the States of America, would find
-their Advantage in opening an extensive Commerce with it.</p>
+Britain & France and also the States of America, would find
+their Advantage in opening an extensive Commerce with it.
 
-<p>7. A Code of Laws to be framed for the mutual good of
+7. A Code of Laws to be framed for the mutual good of
 each Member of the Community which Code must be signed
 by every Individual, and executed by the Sentence of a
 Majority of Judges, a Jury, or single Judge, according to the
-nature of the Crime and Circumstances.</p>
+nature of the Crime and Circumstances.
 
-<p>8. That such valuable Vegetable productions, as do not
+8. That such valuable Vegetable productions, as do not
 naturally grow in that part of Africa, be imported to the most
 proper nurseries appointed for the general Good of the Community,
 and their culture could then be extended with the
-demand.</p>
+demand.
 
-<p>9th To buy the Slaves that are brought from different parts
+9th To buy the Slaves that are brought from different parts
 and more fully to answer the purpose particular Ships may be
 stationed upon the Coast to receive them, and prevent their
 being offered to trading Vessels, and to free every person thus
 purchased, making him a member of the Community and
 giving equal privileges with the rest. If he have a Wife, or
 she a Husband, or they have Children or Friends in the
-<span class="pagenum" id="Page_18" role="doc-pagebreak">18</span>Country whence they were brought, by having permission to
+Country whence they were brought, by having permission to
 return and invite such Friends or any other persons to this
 Settlement of Peace, and paying their own Ransom by working
 or by Commerce, with Interest, the Community would increase
@@ -1089,46 +684,46 @@ power that created you as Instruments would never leave you!
 What happiness awaits him who calls a Soul from Bondage
 under the promise of the most high, but my Friends what
 infinity of happiness shall be theirs who deliver from bondage
-&amp; call unto Christ so many Thousand Souls!</p>
+& call unto Christ so many Thousand Souls!
 
-<p class="right">
-  W. T.
-</p>
-</blockquote>
+/r
+W. T.
+r/
+#/
 
 
-<blockquote>
-<p>To the Black Inhabitants of Pennsylvania, assembled at one
-of their stated Meetings in Philadelphia. [Draft by Thornton].</p>
+/#
+To the Black Inhabitants of Pennsylvania, assembled at one
+of their stated Meetings in Philadelphia. [Draft by Thornton].
 
-<p>It is in Contemplation by the English to make a free Settlement
+It is in Contemplation by the English to make a free Settlement
 of Blacks on the Coast of Africa, which they have already
 begun, and have purchased a Tract of Land twenty Miles
-square at Sierra Leone for the intended Settlers.&#x2060;<a id="FNanchor_9_9" href="#Footnote_9_9" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[9]</a> They are
+square at Sierra Leone for the intended Settlers.[9] They are
 desirous of knowing if any of the Blacks of this Country be
 willing to return to that Region which their Fathers originally
 possessed, and finding many in Boston, Providence and Rhode
 Island very desirous of embarking for Africa, wish also to be
 informed if any of the Blacks in Pennsylvania are inclined to
 settle there. They would on landing be entitled to Estates,
-or certain Tracts of Land, and possess them for ever.</p>
+or certain Tracts of Land, and possess them for ever.
 
-<p>The Place intended for this Settlement is at the mouth of
+The Place intended for this Settlement is at the mouth of
 the River of Sierra Leone, which is navigable back 240 Miles.
 It is situated in about 10 Degrees East Long: of Tenerif, and
 8 Deg: North Lat: Sir George Young of the British Navy
 who visited this Place gives the following Account of it. “St.
 George’s Bay, in which the first Township is formed, is,
-<span class="pagenum" id="Page_19" role="doc-pagebreak">19</span>without exception, as fine a Harbour as any in the World;
+without exception, as fine a Harbour as any in the World;
 that the Mountains abound with Brooks of fresh Water; and
 are covered with the most noble Forests of all kinds of Timber,
 and with perpetual verdure; that when he ascended those
 Mountains, and looked about him he had never been so agreeably
 struck before with beautiful Landscapes of Wood and
 Water; and that he found the Air so cool upon the Mountain
-that he could have borne his great Coat with pleasure.”</p>
+that he could have borne his great Coat with pleasure.”
 
-<p>The Blacks who form this Settlement should be a free and
+The Blacks who form this Settlement should be a free and
 independent People, governed by their own Laws, and by
 Officers of their own election. Their Ports would be open to
 trade with the whole World, whereby they would have the
@@ -1137,40 +732,38 @@ which would not be the Case were the Settlement monopolized
 as a dependent Colony, by any power either of Europe or
 America; but it is imagined the Slave Trade will be soon
 abolished, and that the Europeans and Americans will
-co-operate in the establishment of this laudable Undertaking.</p>
+co-operate in the establishment of this laudable Undertaking.
 
-<p>It is requested that those who may be disposed to embark
+It is requested that those who may be disposed to embark
 for Africa will sign their Names, Ages, Trades and Families,
-&amp;c., in the following, or a similar manner.</p>
+&c., in the following, or a similar manner.
 
-<p>
-  Names      Ages      Trades      Families
-</p>
+/*
+Names      Ages      Trades      Families
+*/
 
-<p>The immediate Exports from Africa to Europe would be
+The immediate Exports from Africa to Europe would be
 Gold Dust, Ivory, Cotton, Dying Woods, Gums, Drugs,
-Spices, Fruits and Preserves, Wood for Cabinets, &amp;c. Oil of
-Palms &amp;c, Indigo, Tobacco, Rice and Wax; to America the
+Spices, Fruits and Preserves, Wood for Cabinets, &c. Oil of
+Palms &c, Indigo, Tobacco, Rice and Wax; to America the
 same, except the four last Articles, but with the Addition of
-Cocoa, Coffee, Sugar &amp; its products &amp;c, as the Americans have
-no Colonies with which such productions would interfere.</p>
-</blockquote>
+Cocoa, Coffee, Sugar & its products &c, as the Americans have
+no Colonies with which such productions would interfere.
+#/
 
 
-<h3 id="WILLIAM_THORNTON_TO_ETIENNE_CLAVIERE_1788">
-  WILLIAM THORNTON TO ÉTIENNE CLAVIÈRE [1788]
-</h3>
+WILLIAM THORNTON TO ÉTIENNE CLAVIÈRE [1788]
 
-<blockquote>
-<p>
-  Mons.<sup>r</sup> [Étienne] Clavière<br>
-  <i>President de la Societe des Amis des Noirs</i><br>
-  <br>
-  Respected Friend
-</p>
+/#
+/*
+Mons.^r [Étienne] Clavière
+<i>President de la Societe des Amis des Noirs</i>
 
-<p>Thy Letter with which I was lately honored is truly interesting
-&amp; I perused it with most satisfaction, and think myself
+Respected Friend
+*/
+
+Thy Letter with which I was lately honored is truly interesting
+& I perused it with most satisfaction, and think myself
 highly obligated for this favour: I am happy that your Nation
 while engaged in a noble struggle for her own Privileges was not
 inattentive to the rights and happiness of the most oppressed
@@ -1179,7 +772,7 @@ in every Street, and acclamations of Joy rent the Heavens,
 you listened to the voice of humanity, in the midst of gladness,
 the cry of the afflicted in a distant Land pierced each Heart of
 Benevolence. The Sum of your Happiness is not yet complete
-<span class="pagenum" id="Page_20" role="doc-pagebreak">20</span>for Tears of Sorrow continue to flow from the Eyes of Slaves,
+for Tears of Sorrow continue to flow from the Eyes of Slaves,
 and the God of Man cannot delight in the freedom of one who
 binds another to administer to his pleasures. Let that
 nobleness of Character which has distinguished your People
@@ -1191,9 +784,9 @@ entitled by Nature to the same Favours! Thus shall each
 name that dignifies your Society do honor to human Nature,
 and when the Trumpet of Fame has done sounding the names
 of Heroes, your Names will be heard with secret Joy in the
-most remote Ages, and Time will hand them over to Eternity.</p>
+most remote Ages, and Time will hand them over to Eternity.
 
-<p>I am happy that you approve of the Men with whom I
+I am happy that you approve of the Men with whom I
 propose to form a Settlement in Africa, though you think it
 will be necessary to form a concert of opinions and of actions
 between the different powers of Europe in favour of the plan
@@ -1204,7 +797,7 @@ not very satisfactorily equipped, the English made an Essay,
 and as I have lately been informed not unsuccessfully, we
 might, with reason, hope that with such Men as I had the
 honor of proposing to you, properly provided with Necessaries
-&amp; Arms, a free Settlement might be established upon the most
+& Arms, a free Settlement might be established upon the most
 solid Basis; for it does not appear that either the continuance
 of Slavery in other places, or even the Slave Trade affected the
 Settlers at Sierra Leone materially and, as the Traders seek
@@ -1220,15 +813,15 @@ in furnishing Ships with Stores, Implements of Labour, and
 Necessaries for the Coast of Africa, as soon as a proper place
 could be secured to them, either by Grants made by the
 African Princes, or in Consequence of Negotiations with any
-of the European Powers.</p>
+of the European Powers.
 
-<p>I am incapable of expressing my admiration of your spirited
+I am incapable of expressing my admiration of your spirited
 and excellent address to the Bailliages or Districts entitled to
-send Delegates to the states Gen<sup>l</sup>: It speaks the Language
+send Delegates to the states Gen^l: It speaks the Language
 of Magnanimity, but though its justice may stare every slave
 dealer in the Face, and each sleeping Conscience be awaked to
 its Sense of Guilt, it withdraws behind the impenetrable Veil
-<span class="pagenum" id="Page_21" role="doc-pagebreak">21</span>of Interest, and the Mind is afraid to give way to conviction.
+of Interest, and the Mind is afraid to give way to conviction.
 A total and immediate abolition of Slavery may indeed be
 pregnant with some Danger to Society, but there can be no
 inconvenience in a gradual Emancipation to commence as
@@ -1266,17 +859,17 @@ rate, exchanging for them manufactured articles. America
 also will find great advantages in the Productions of Africa.
 The immediate Exports from Africa to Europe would be gold
 Dust, Ivory, Cotton, Dying Woods, Gums, Drugs, Spices,
-Fruits and Preserves, Wood for Cabinets &amp;c. Oil of Palms &amp;c.
-Indigo, Tobacco, Rice &amp; Wax; to America the same, except
+Fruits and Preserves, Wood for Cabinets &c. Oil of Palms &c.
+Indigo, Tobacco, Rice & Wax; to America the same, except
 the four last Articles, but with the addition of Sugar and its
-products, Cocoa, Coffee, &amp;c. as they have no Colonies with
-which such productions would interfere.</p>
+products, Cocoa, Coffee, &c. as they have no Colonies with
+which such productions would interfere.
 
-<p>The Planters in the West Indies particularly the Sugar
+The Planters in the West Indies particularly the Sugar
 Planters cannot for many Years be affected by the exportation
 of any tropical Productions from Africa to Europe for the
 expense of Sugar Works would be too great for a new Settlement,
-<span class="pagenum" id="Page_22" role="doc-pagebreak">22</span>and were Sugar after that as cheap in Africa as in the
+and were Sugar after that as cheap in Africa as in the
 East Indies it would bear so heavy a Duty that the Revenue
 of either France or England would be much increased by its
 Importation; however if these nations should regard more the
@@ -1286,9 +879,9 @@ either Kingdom, they might lay such high Duties on the
 African Sugar as to be prohibitory, or at least equivalent to a
 Bounty on West India Sugars, till <i>true</i> policy should open the
 Eyes of European Politicians, and force them to urge the
-eternal abolition of Slavery.</p>
+eternal abolition of Slavery.
 
-<p>Reasons in favour of the immediate Settlement of Africa
+Reasons in favour of the immediate Settlement of Africa
 may be collected from the Sentiments of many in this Country.
 I will give you upon this Subject the Opinion of a Gentleman
 from one of the most respectable States in the Union—a
@@ -1296,39 +889,39 @@ Gentleman who does honor not to America only, but to
 human Nature—a Gentleman of the first Abilities, and whose
 Voice has ever been listened to with uncommon attention in
 the Councils of this Nation. His own Words are the best
-adapted to his Sentiments. [Insert the note by M<sup>r</sup>. M.]</p>
+adapted to his Sentiments. [Insert the note by M^r. M.]
 
-<p>“Without inquiring into the practicability or the most proper
+“Without inquiring into the practicability or the most proper
 means of establishing a settlement of freed blacks on the Coast
 of Africa, it may be remarked as one motive to the benevolent
 experiment that if such an asylum was provided, it might
 prove a great encouragement to manumission in the Southern
 parts of the U. S. and even afford the best hope yet presented
 of putting an end to the slavery in which not less than 600,000
-unhappy negroes are now involved.</p>
+unhappy negroes are now involved.
 
-<p>“In all the Southern States of N. America, the laws permit
+“In all the Southern States of N. America, the laws permit
 masters, under certain precautions to manumit their slaves.
 But the continuance of such a permission in some of the States
 is rendered precarious by the ill effects suffered from freedmen
 who retain the vices and habits of slaves. The same consideration
-becomes an objection with many humane master ag<sup>st</sup>.
+becomes an objection with many humane master ag^{st}.
 an exertion of their legal right of freeing their slaves. It is
 found in fact that neither the good of the Society, nor the
 happiness of the individuals restored to freedom is promoted
-by such a change in their condition.</p>
+by such a change in their condition.
 
-<p>“In order to render this design eligible as well to the Society
+“In order to render this design eligible as well to the Society
 as to the Slaves, it would be necessary that a compleat incorporation
 of the latter into the former should result from the act
 of manumission. This is rendered impossible by the prejudice
 of the whites, prejudices which proceeding principally from the
 difference of colour must be considered as permanent and
-insuperable.</p>
+insuperable.
 
-<p>“It only remains then that some proper external receptacle
+“It only remains then that some proper external receptacle
 be provided for the slaves who obtain their liberty. The
-<span class="pagenum" id="Page_23" role="doc-pagebreak">23</span>interior wilderness of America, and the Coast of Africa seem to
+interior wilderness of America, and the Coast of Africa seem to
 present the most obvious alternative. The former is liable
 to great if not invincible objections. If the settlement were
 attempted at a considerable distance from the White Frontier,
@@ -1337,20 +930,20 @@ antipathy to the blacks. If the attempt were made in the
 neighbourhood of the White Settlements, peace would not long
 be expected to remain between Societies, distinguished by
 such characteristic marks, and retaining the feelings inspired
-by their former relation of oppressors &amp; oppressed. The result
+by their former relation of oppressors & oppressed. The result
 then is that an experiment for providing such an external
 establishment for the blacks as might induce the humanity of
-Masters, and by degrees both the humanity &amp; policy of the
+Masters, and by degrees both the humanity & policy of the
 Governments, to forward the abolition of slavery in America,
 ought to be pursued on the Coast of Africa or in some other
-foreign situation.&#x2060;<a id="FNanchor_10_10" href="#Footnote_10_10" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[10]</a>&#x2060;”</p>
+foreign situation.[10]”
 
-<p>Such is his Opinion, and he further intimated that Slavery
+Such is his Opinion, and he further intimated that Slavery
 is not likely to be <i>ever</i> abolished in the Southern States of
 America till an Asylum be provided to which the manumitted
-Blacks may be sent.</p>
+Blacks may be sent.
 
-<p>I have only to add my sincere Wishes that the honorable and
+I have only to add my sincere Wishes that the honorable and
 benevolent Society over which thou presidest may concur with
 me in Sentiment respecting the propriety of adopting a plan of
 immediately commencing this Settlement, as it may beside
@@ -1362,42 +955,38 @@ Africa that their Kingdoms would be much richer by a Sale of
 their Commodities, than by a sale of their Inhabitants; that a
 King who sells his Subjects to enrich himself is (according to
 Montesquieu) like one who cuts down his Trees to pick off the
-Fruits.</p>
+Fruits.
 
-<p>Nothing I hope will subdue your Minds! Great is your
+Nothing I hope will subdue your Minds! Great is your
 Cause, and may Heaven prosper your Society! You defend
 not imaginary Titles; you plead not the cause of an Individual
 or a Family; you support not the honorary dignities of a
 Kingdom; but you disinterestedly raise your Voice in favour of
 many Nations, to preserve the Lives of many Millions, and in
-defence of the dearest rights of Man!!—</p>
+defence of the dearest rights of Man!!—
 
-<p>
-  I am with the greatest regard &amp; esteem<br>
-  <br>
-  thy respectful Friend<br>
-  <br>
-  W.T.
-</p>
-</blockquote>
+/*
+I am with the greatest regard & esteem
 
-<p><span class="pagenum" id="Page_24" role="doc-pagebreak">24</span></p>
+thy respectful Friend
+
+W.T.
+*/
+#/
 
 
-<h3 id="Suggestion_to_Buy_Porto_Rico_for_Free_Negroes">
-  <span class="smcap">Suggestion to Buy Porto Rico for Free Negroes.</span>
-</h3>
+<sc>Suggestion to Buy Porto Rico for Free Negroes.</sc>
 
-<p><span class="smcap">Draft, by Thornton</span> [1802]</p>
+<sc>Draft, by Thornton</sc> [1802]
 
-<blockquote>
-<p>About the year 88, at the time that the Government of
+/#
+About the year 88, at the time that the Government of
 England was engaged in settling a free Colony at Sierra Leone
 the Americans in New England were desirous of sending all
 the free Blacks from that Country and offered Ships and every
 necessary for their support. The Blacks likewise were
 desirous of fixing in any Country where they might enjoy the
-rights &amp; privileges of free-men, which they knew could not,
+rights & privileges of free-men, which they knew could not,
 consistently with the policy of the American Government, be
 accorded to them while so large a portion of the Black people
 remained in a State of Slavery. But without they had
@@ -1417,7 +1006,7 @@ objections be dedicated to this end. But the mere settlement
 of the Blacks is perhaps not a sufficient inducement to the
 Government of America to engage in the establishment of a
 Colony, for it has been considered by many wise men as
-incurring a great expense, &amp; subjecting any Nation to the Evils
+incurring a great expense, & subjecting any Nation to the Evils
 of foreign warfare. It is in part true, but only as it relates to
 certain European powers. With respect to us is it materially
 different, and though we are at present but in the infancy of
@@ -1426,7 +1015,7 @@ the Scale of Nations that were we even now to possess one or
 more Islands no Nation would presume to molest us, because
 our weight thrown into any Scale would outbalance the
 advantages of opposition to any of our National Measures;
-especially if there were not direct aggression on the rights &amp;
+especially if there were not direct aggression on the rights &
 privileges of others; and though it might be extremely difficult
 for the Americans at any other time to obtain from the Court
 of Spain, or any other Nation an Island in the West Indies,
@@ -1434,61 +1023,61 @@ especially of sufficient importance to be worthy of being
 possessed by one of the most extensive Nations in the world,
 yet at this time it would not be difficult to induce the Court of
 Spain to cede to us, what is not important to them, I mean the
-<span class="pagenum" id="Page_25" role="doc-pagebreak">25</span>Island of Porto Rico, for it is an annual expense to the Spanish
-Government of above 150,000 Doll<sup>s</sup>. Other motives might
+Island of Porto Rico, for it is an annual expense to the Spanish
+Government of above 150,000 Doll^s. Other motives might
 tend to induce them to grant us this Island which may be
-enumerated. During a War, &amp; the present particularly, the
+enumerated. During a War, & the present particularly, the
 English may make prize of it, if they know the Americans wish
 it, may sell it to them, thereby depriving the Spaniards not
-only of our Friendship but also of the Island &amp; the Money we
+only of our Friendship but also of the Island & the Money we
 would give. It is not however the policy of England to grant
 the Americans an Island for the very Idea of giving us more
 strength in the American Archipelago is contrary to their
-national policy, not only on acct. of increasing our Seamen &amp;
+national policy, not only on acct. of increasing our Seamen &
 consequently our naval power, but of being her competitors
 in the Sugar Market: but this policy would give way to the
 consideration of our obtaining from the Spaniards what was
 refused by them, and the National Jealousies between the two
 Courts would at this time work mutually to our Advantage.
 If the English had wished for Porto Rico, or any, or all, of the
-Spanish Islands, &amp; other Settlements, they could at any time
+Spanish Islands, & other Settlements, they could at any time
 have obtained them, as well as the French Settlements, but the
 Merchants of England who have lent Money to the Jamaica
 Planters, on their Estates, and the Planters who at great
 Expense have settled Sugar Estates, would oppose the Intention
 of Government, if a Disposition were shown to extend
-their Colonies in such rich &amp; fertile Islands, where a competition
+their Colonies in such rich & fertile Islands, where a competition
 would diminish the value of their settled possessions—and
-these rich merchants &amp; planters who possess Boroughs in
-England and send by their extensive Patronage &amp; Influence
+these rich merchants & planters who possess Boroughs in
+England and send by their extensive Patronage & Influence
 many Members to parliament do not express their wishes
 without being heard by the royal or Ministerial Ear. The
 French Islands have been repeatedly taken by the English and
 restored at the conclusion of the War, but if retained they
 would only have thrown the same quantity of Sugar into a
-different Channel without actually increasing it &amp; there could
+different Channel without actually increasing it & there could
 be less objection to their being retained. If the American
 Government were opposed to <i>purchasing</i> the Island there is no
 doubt it would be ceded by our giving way in the Settlement
 of our Western Limits of Louisiana—for if a serious demand
 were to be made of the Rio Bravo or Rio del Norte as our
 Boundary, the Spaniards would be extremely adverse to a
-Dispute, &amp; would be equally or more adverse to the relinquishment
+Dispute, & would be equally or more adverse to the relinquishment
 of a Territory that contains the richest Gold Mines in
 the world, which are situated in the Mountains of the Province
-of Texas, and several Rich ones in the neighborhood of S<sup>ta</sup>. Fé,
+of Texas, and several Rich ones in the neighborhood of S^{ta}. Fé,
 besides some of the richest Silver Mines in the world—rather
 than permit such a cession of Territory there is no Doubt they
-would give the two Floridas &amp; Porto Rico: the last however is
-the richest most beautiful most pleasant &amp; healthy Island in
-<span class="pagenum" id="Page_26" role="doc-pagebreak">26</span>the same Latitude or between the Tropics in the world. It is
+would give the two Floridas & Porto Rico: the last however is
+the richest most beautiful most pleasant & healthy Island in
+the same Latitude or between the Tropics in the world. It is
 likewise very extensive in fertile Land, and contains more
-really rich Land proper for Canes &amp; at the same time in a
+really rich Land proper for Canes & at the same time in a
 healthy situation than all the other possessions of this Government,
 if even what is mentioned above were ceded to us.
-Porto Rico contains Ports that are very extensive &amp; very safe.
+Porto Rico contains Ports that are very extensive & very safe.
 It is more easy of access to our Ships than any Settlement we
-can form, as they can run thither &amp; back with the Trade Wind,
+can form, as they can run thither & back with the Trade Wind,
 without beating up or tacking. If the Government possess that
 Island and make it a free Port it would give, independent of
 the produce, an astonishing revenue, and if a free Port, it
@@ -1501,63 +1090,61 @@ acceptance of its Sovereignty, and permit a private Company
 to purchase the Island under the Sanction of the American
 Government, permitting every proprietor to hold his Land,
 and the Company taking possession only of the Crown Lands.
-Upon these Principles the English the Danes the Dutch &amp;
+Upon these Principles the English the Danes the Dutch &
 others have established Settlements which have been so productive
-as to give immense revenues.</p>
-</blockquote>
+as to give immense revenues.
+#/
 
 
-<h3 id="Draft_of_a_Letter_to_a_Newspaper">
-  <span class="smcap">Draft of a Letter to a Newspaper.</span>
-</h3>
+<sc>Draft of a Letter to a Newspaper.</sc>
 
-<p><span class="smcap">By Thornton</span> [1816?]</p>
+<sc>By Thornton</sc> [1816?]
 
-<blockquote>
-<p>
-  Mess<sup>rs</sup>. Editors
-</p>
+/#
+/*
+Mess^{rs}. Editors
+*/
 
-<p>The Cause of the Blacks has called forth the energetic power
-of England, &amp; Cruisers have been sent to the Coast of Africa
+The Cause of the Blacks has called forth the energetic power
+of England, & Cruisers have been sent to the Coast of Africa
 to put a Stop to that inhuman trafic, that has so long disgraced
 the most enlightened Nations of Europe. Such evidences
 have been produced that we find it is impossible to deny that
 many of our own People are engaged very deeply in this
 Business, furnishing under different Flags, the Spaniards of
 Cuba, with Slaves, who again wait for convenient opportunities
-to send them to Missouri, &amp; thus many thousands have
+to send them to Missouri, & thus many thousands have
 been introduced in the very teeth of the Constitution; against
-law, against humanity, against every rule of right &amp; every
+law, against humanity, against every rule of right & every
 principle of Christianity, at the very time that we are tickling
-the vanity of each other, in orations on our freedom &amp; declaration
-of common rights, &amp; at the very time that we are
-immolating those poor wretches, who listening to our 4<sup>th</sup>. of
+the vanity of each other, in orations on our freedom & declaration
+of common rights, & at the very time that we are
+immolating those poor wretches, who listening to our 4^{th}. of
 July flights, declare that “whatever is praiseworthy in Massa,
-is certainly praiseworthy in his Slave!”</p>
+is certainly praiseworthy in his Slave!”
 
-<p>The Eye of Heaven is not blinded with Gold-dust, &amp; the
+The Eye of Heaven is not blinded with Gold-dust, & the
 Day of reckoning is drawing near. Has a single Individual
-<span class="pagenum" id="Page_27" role="doc-pagebreak">27</span>dared to stand forth the Champion of the Oppressed: has he
+dared to stand forth the Champion of the Oppressed: has he
 dared to recommend to Congress that a law should be passed
 to take to the Coast of Barbary every Man captured on board
 the Slave-trading Vessels who was engaged directly or indirectly
-in making Slaves or trading in them; &amp; that such
+in making Slaves or trading in them; & that such
 Individuals should be exchanged to ransom the innocent
 Captives of the Barbarians!—We are seeking for a President.
-Give me the Name of such a Champion of humanity, &amp; I
-would write Night &amp; Day to blazon forth his Virtues, and to
+Give me the Name of such a Champion of humanity, & I
+would write Night & Day to blazon forth his Virtues, and to
 make him the Ruler of the People. I would have none of your
 cold-blooded, tardy-thinking and calculating Characters. I
-would have the warm-hearted the noble-minded &amp; generous
+would have the warm-hearted the noble-minded & generous
 Being who would dare to stem the torrent of opposition, and
 whose Virtues would rise against every attack, with a bolder
 crest: for in this land there is still great virtue, but it lies in a
-latent State. It requires to be brought forth, &amp; to be fostered.
+latent State. It requires to be brought forth, & to be fostered.
 It would, under the cherishing influence of a great master-spirit,
 be productive of effects that cannot be contemplated by
 the puny Soul! The North Americans would thus be distinguished
-as a great, a generous, a virtuous, &amp; magnanimous
+as a great, a generous, a virtuous, & magnanimous
 People. It would then be an honor to be called by such an
 Appellation. At present we look not for good and enlightened
 Men to fill our offices, but for men of money, of influence in
@@ -1570,39 +1157,39 @@ to dance puppets in the moon! If an Envoy be sent to a
 foreign Country, it is not for what he is expected to do there;
 but to pay for electioneering services performed here, or to be
 performed. He may be old to superannuation, he may be
-deaf &amp; dumb,—that is, incapable of understanding, or speaking
+deaf & dumb,—that is, incapable of understanding, or speaking
 intelligibly a word of the People to whom he is sent.—What
 impositions are these upon the Community! Can no man be
 found who has honesty enough to call upon the actors in these
 base desertions of common Sense! No, we have no men, or
-few who dare write, &amp; fewer still who dare publish what is
+few who dare write, & fewer still who dare publish what is
 written: for all the Papers that obtain extensive circulation are
 in the pay of Government. The Laws are to be published in
 each of these papers, not for the benefit of the People, but to
-pay the vile hirelings who are as much bought &amp; sold, as the
+pay the vile hirelings who are as much bought & sold, as the
 hack-lawyers, that will plead in favor of any villain, in a cause,
 known to be iniquitous, for a fee. I speak to you Citizens,
-without your accustomed homage, &amp; I call upon you to publish
+without your accustomed homage, & I call upon you to publish
 what I write if you have any of the spirit of ’76. It was then
 that men dared to think, and to write. It was then that those
-<span class="pagenum" id="Page_28" role="doc-pagebreak">28</span>bold and home Truths were told in the Pages of <i>Common
-Sense</i>. But the Times have changed, &amp; I call upon you my
-Countrymen to resume your native energies.</p>
+bold and home Truths were told in the Pages of <i>Common
+Sense</i>. But the Times have changed, & I call upon you my
+Countrymen to resume your native energies.
 
-<p>When this Country declared its Independence the Inhabitants
-were but ab<sup>t</sup> two millions &amp; a half, of which nearly a
+When this Country declared its Independence the Inhabitants
+were but ab^t two millions & a half, of which nearly a
 Million were slaves. We were then without Ships, without
 Money, without Arms, without ammunition: and yet the whole
 power of England was insufficient to subject us to an unconditional
 Submission to parliamentary decrees. We became
 independent! England was at the commencement of the
 Struggle nearly free from Debt: at the end of the war they were
-involved in a debt of 500,000,000 Sterl<sup>g</sup>. The great men of
-this Country &amp; many others thought it impossible that
+involved in a debt of 500,000,000 Sterl^g. The great men of
+this Country & many others thought it impossible that
 England could long sustain such a burthen of Taxes as were
 requisite to pay the interest of this enormous Debt. But
 England has since that sustained a War against all the powers
-of Christendom &amp; when engaged with all Europe, we, to
+of Christendom & when engaged with all Europe, we, to
 obtain a redress of some grievances, threw our power into the
 Scale against England. She sustained the whole! and put
 down, finally, the power of France, that had forced the rest of
@@ -1612,7 +1199,7 @@ pretends now, in perfect peace, to dread the effects that will be
 likely to result from an effort of the Emperor of Russia to
 humble the pride and power of the Turks, if unopposed by the
 rest of Europe! Has England any thing to fear even if
-Alexander were to make Constantinople his winter’s, &amp; St.
+Alexander were to make Constantinople his winter’s, & St.
 Petersburgh his summer’s, residence? His Empire would be
 assailable, in so many points, that he would never be able to
 defend it. He would prepare only for revolutions, for when
@@ -1623,27 +1210,27 @@ Great Britain—New Holland will become independent—The
 Cape of good-hope will become independent, but all these
 speaking the English Language will give such advantages to
 our Commerce as to render us in a few years the most potent
-Nation in the World.</p>
-</blockquote>
+Nation in the World.
+#/
 
 
-<blockquote>
-<p class="right">
-  [December, 1816.]
-</p>
+/#
+/r
+[December, 1816.]
+r/
 
-<p>To the honorable Henry Clay, Chairman of the Assembly for
-promoting the establishment of a free and independ<sup>t</sup>. Nation
-of Blacks in Africa [draft by Thornton.]</p>
+To the honorable Henry Clay, Chairman of the Assembly for
+promoting the establishment of a free and independ^t. Nation
+of Blacks in Africa [draft by Thornton.]
 
-<p>
-  Sir
-</p>
+/*
+Sir
+*/
 
-<p>My public Duties did not permit my personal attendance
+My public Duties did not permit my personal attendance
 at the meeting lately held for this praise-worthy object but I
 have heard with unspeakable satisfaction of the respectability
-<span class="pagenum" id="Page_29" role="doc-pagebreak">29</span>of the meeting &amp; of the unanimity of benevolence with which
+of the meeting & of the unanimity of benevolence with which
 this Subject was discussed. It is a Subject that has long
 impressed my mind as one of the most momentous; for it
 involves the happiness of millions of our Fellow Beings; and as
@@ -1659,7 +1246,7 @@ Blacks apply the Case to themselves, and ask if they were
 carried into Slavery among the Barbary Powers or other
 savages, and by degrees had gained their freedom, and a
 desire were expressed by the Barbarians that the emancipated
-&amp; their descend<sup>ts</sup> should be restored to their original country,
+& their descend^{ts} should be restored to their original country,
 could there be a hesitation in those to whom such a proposal
 should be made in embracing the offer, especially if they were
 to have lands presented to them, and were to be assisted in
@@ -1667,41 +1254,41 @@ forming a free Government? It is impossible on this subject,
 if well considered, to offer a doubt. But lest any should judge
 from expressions that may have escaped from contented
 Individuals, I will mention a Fact in favor of this contemplated
-Establishment that cannot fail to make some Impression.</p>
+Establishment that cannot fail to make some Impression.
 
-<p>In the winter of 1786–7 I was travelling in Rhode Island &amp;
-Massachusetts. I found many free Blacks &amp; having been
+In the winter of 1786–7 I was travelling in Rhode Island &
+Massachusetts. I found many free Blacks & having been
 engaged in a correspondence with some of the members of the
 Sierra Leone Society of London, among whom were some of my
 Friends I was desirous of knowing what number of free Blacks
-in Mass. &amp; R.I. could be found, desirous of joining in that
+in Mass. & R.I. could be found, desirous of joining in that
 Settlement. I made my wish known to some of the elder
 Blacks who informed me they would call Meetings that they
 might be informed of the contemplated object of such a
 Settlement. They assembled in hundreds, in one of the
-places of worship &amp; in the most orderly and decent manner,
+places of worship & in the most orderly and decent manner,
 heard all I had to say. They were delighted with the prospect,
 and in a few Weeks informed me that two thousand were
 willing to accompany me. I made this known to some of the
-Members of the Assembly of Massach<sup>ts</sup> who expressed a desire
+Members of the Assembly of Massach^{ts} who expressed a desire
 of aiding in sending them out of the Country, and I had no
 doubt from the ardour with which the proposal of taking them
 away entirely, was advocated, that the Legislature would
-have furnished them with Ships, with provisions, Tools &amp;c.
+have furnished them with Ships, with provisions, Tools &c.
 and many of the members promised that every requisite would
 cheerfully be granted. When however I explained to them the
 intention of taking the Blacks to Sierra Leone—then Members
-<span class="pagenum" id="Page_30" role="doc-pagebreak">30</span>of the Legislature expressed an unwillingness to send them out
-of the limits of the U.S., &amp; wished a Settlement to be made in
+of the Legislature expressed an unwillingness to send them out
+of the limits of the U.S., & wished a Settlement to be made in
 the most southern part of the back Country between the
-whites &amp; Indians. I informed them that I would never be
+whites & Indians. I informed them that I would never be
 instrumental in placing those men, who were now comparatively
-happy &amp; in a state of protection, between the Indians &amp;
+happy & in a state of protection, between the Indians &
 Savages on their Borders, where they would become a prey to
 both; besides I was confident the Blacks could have no motive
 for wishing such a change; for if they should prove capable of
-defending themselves ag<sup>st</sup> all their Enemies, &amp; should preserve
-their political freedom, could they ever hope to be rec<sup>d</sup> as
+defending themselves ag^{st} all their Enemies, & should preserve
+their political freedom, could they ever hope to be rec^d as
 representatives in our Assemblies? Could they ever be
 treated with an equality in a country where many of their
 Colour were still held in Slavery? It would be morally
@@ -1713,48 +1300,48 @@ race, that all minor Considerations would vanish. Happily
 the Day has arrived, and I hope that the holy zeal with which
 this Business has commenced may never feel a check; for most
 fortunately for the cause of humanity, the Cause of self
-Interest has nothing to fear from its advancement.</p>
+Interest has nothing to fear from its advancement.
 
-<p>I laid before the World in 1804 a Letter containing a plan
+I laid before the World in 1804 a Letter containing a plan
 for emancipating the Blacks, a copy of which I take the
-liberty of presenting with this.&#x2060;<a id="FNanchor_11_11" href="#Footnote_11_11" class="fnanchor" role="doc-noteref" data-epub-type="noteref">[11]</a> It is however a Subject
+liberty of presenting with this.[11] It is however a Subject
 distinct from the one now under contemplation. This is on
-the mode of establishing them as a free, distinct, &amp; independent
+the mode of establishing them as a free, distinct, & independent
 people. Without attempting to combat the various opinions
 that prevail on this Subject, I think it sufficient to give my
 own but I offer my Sentiments upon this great Subject with
 the utmost deference. The Almighty in that wisdom that
 Man cannot pretend to scan, has destined Africa to be the
 Country of the Blacks. They lived in a state of Nature,
-enjoying the fruits &amp; natural productions of one of the most
+enjoying the fruits & natural productions of one of the most
 fertile regions of the Earth—till America was discovered.
-The rich mines of Silver &amp; Gold found there induced the
+The rich mines of Silver & Gold found there induced the
 nations of Europe who possessed themselves of these inexhaustible
 sources of Wealth after sacrificing millions of poor
-Indians, to import Africans to work their mines &amp; cultivate
+Indians, to import Africans to work their mines & cultivate
 their lands. These People have been subject to cruelties, at
 which human Nature has long shuddered. Their sufferings
 have made impressions that have roused the activity of many
-benevolent &amp; highly distinguished Characters. The Slave
-<span class="pagenum" id="Page_31" role="doc-pagebreak">31</span>Trade has been abolished, many humane Persons have
+benevolent & highly distinguished Characters. The Slave
+Trade has been abolished, many humane Persons have
 liberated their Slaves, and more would follow them if such
 provision were made for their future destiny as would be likely
 to ensure a prospect of felicity. An Establishment was made
-by the English at Sierra Leone, on one of the finest rivers, &amp; in
+by the English at Sierra Leone, on one of the finest rivers, & in
 the richest country in Africa. This settlement flourished till
 broken up by the French through a mistaken Jealousy. It is
-revived, &amp; hopes of its advancement entertained. The
+revived, & hopes of its advancement entertained. The
 liberal policy of those enlightened Characters who commenced
 that Establishment of free Blacks would doubtless induce
 them cordially to assist in extending it to the free Blacks of
-this Country, &amp; of all others. To join those already in some
+this Country, & of all others. To join those already in some
 degree established would offer advantages to each; but this
 is only under the supposition that the Settlement is to be
 considered as appertaining to not only a free but compleatly
 independent People: and in no respect whatever to be viewed
 as a Colony. If they should be settled as a Colony, they
 would be restricted by regulations to trade with particular
-nations, &amp; would be subjected to oppressive Duties. They
+nations, & would be subjected to oppressive Duties. They
 might be considered as free but not independent. In an
 establishment of this kind, where provision should be made for
 unborn Millions, every movement should be correspondent.
@@ -1763,27 +1350,27 @@ of the natives of Africa, by discreet and competent agents and
 let this region be recorded by our Government as a free gift
 forever to the people who may settle thereon. The price of
 purchase may perhaps be small in comparison to the immensity
-of the Object &amp; particularly if the surrounding People be
+of the Object & particularly if the surrounding People be
 informed that nothing but good is contemplated. But instead
 of thousands were it to cost us millions it would be unworthy
-of the Consider<sup>n</sup>, of a great &amp; magnanimous People, who have
+of the Consider^n, of a great & magnanimous People, who have
 not hesitated to sacrifice more than a hundred Millions in
 asserting National Principles in defence of private Rights;
 especially when this great Cause is a beneficent retribution for
-long sustained injuries inflicted on the Innocent; &amp; to blot from
+long sustained injuries inflicted on the Innocent; & to blot from
 the records of Eternity the highest stigma of humanity.
 After purchasing the Country let it be surveyed in the same
-manner as our own back Countries, &amp; the fee simple only
+manner as our own back Countries, & the fee simple only
 be disposed of by degrees that the Settlers may be kept
 compact, and be thereby more capable of defending themselves
-&amp; their flocks from the incursions of the Savages
-&amp; from the beasts of the wilderness. A form of republican
-Govern<sup>t</sup>, would be prepared for them—and they ought for a
+& their flocks from the incursions of the Savages
+& from the beasts of the wilderness. A form of republican
+Govern^t, would be prepared for them—and they ought for a
 while to be protected by a due force. Every Advantage should
-be accorded to them, that an orderly &amp; reasonable people
-could desire. Public Schools &amp; places of worship should be
+be accorded to them, that an orderly & reasonable people
+could desire. Public Schools & places of worship should be
 established. Whatever would tend to their advancement in
-<span class="pagenum" id="Page_32" role="doc-pagebreak">32</span>this world, &amp; preparation for the next should be solicitously
+this world, & preparation for the next should be solicitously
 fostered—and if with all our Care such a people should be
 produced as might reasonably be expected to arise from such
 preparatory Steps, they would bless the humble Instruments
@@ -1795,81 +1382,64 @@ the thraldom of the Mind. They would find them enjoying
 the light of Christianity—and able to instruct their fellow men
 in the precepts of divine wisdom. Thus would Slavery, the
 darkest stain on Christian Professors, be finally rendered
-subservient to the work of heaven &amp; the poor Africans be in a
+subservient to the work of heaven & the poor Africans be in a
 manner repaid for the long sufferings of their unhappy
 children. The wilderness would flourish in Arts, Agriculture
-&amp; Science, their Ports would be open to the whole world, the
+& Science, their Ports would be open to the whole world, the
 Native African would be taught the principles of Christianity
-&amp; be happy; thus millions unnumbered in singing halelujahs
-to our God, would bless the Children of the West!</p>
+& be happy; thus millions unnumbered in singing halelujahs
+to our God, would bless the Children of the West!
 
-<p class="right">
-  W: T:
-</p>
-</blockquote>
-
-
-<hr class="chap x-ebookmaker-drop" aria-hidden="true">
-<div class="chapter">
-  <h2 class="nobreak" id="FOOTNOTES">
-    FOOTNOTES:
-  </h2>
-</div>
+/r
+W: T:
+r/
+#/
 
 
-<aside class="footnote" id="Footnote_1_1" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_1_1" class="label" role="doc-backlink">[1]</a>
-    The Development of the West Indies, by Frank Wesley Pitman, Ph. D., Yale Historical
-Publications, 1917, p. 383.</p></aside>
 
-<aside class="footnote" id="Footnote_2_2" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_2_2" class="label" role="doc-backlink">[2]</a>
-    Thornton Papers, Library of Congress MSS. Unless otherwise stated these papers
-are the authority for this paper.</p></aside>
 
-<aside class="footnote" id="Footnote_3_3" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_3_3" class="label" role="doc-backlink">[3]</a>
-    CADMUS, or a Treatise on the Elements of Written Language, Illustrated by a
+FOOTNOTES:
+
+
+[Footnote 1: The Development of the West Indies, by Frank Wesley Pitman, Ph. D., Yale Historical
+Publications, 1917, p. 383.]
+
+[Footnote 2: Thornton Papers, Library of Congress MSS. Unless otherwise stated these papers
+are the authority for this paper.]
+
+[Footnote 3: CADMUS, or a Treatise on the Elements of Written Language, Illustrated by a
 Philosophical Division of Speech, the Power of each character thereby mutually fixing the
 Orthography and Orthoepy. Cur nescire, pudens prave, quam descire malo? Hors
 Ars. Poet. V. 88. With an Essay on the Mode of Teaching the Surd or Deaf and Consequently
 Dumb to Speak. By William Thornton, M.D., Member of the Societies of Scots
 Antiquaries of Edinburg and Perth; the Medical Society and the Society of Natural Hist.
-of Edin.; the American Philosophical Society, &amp;c., Philadelphia, Printed by R. Aitken &amp;
-Son, No. 22, Market Street, M.DCC.XCIII.</p></aside>
+of Edin.; the American Philosophical Society, &c., Philadelphia, Printed by R. Aitken &
+Son, No. 22, Market Street, M.DCC.XCIII.]
 
-<aside class="footnote" id="Footnote_4_4" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_4_4" class="label" role="doc-backlink">[4]</a>
-    William Thornton and John Fitch, by Gaillard Hunt, in The Nation, May 21, 1914.</p></aside>
+[Footnote 4: William Thornton and John Fitch, by Gaillard Hunt, in The Nation, May 21, 1914.]
 
-<aside class="footnote" id="Footnote_5_5" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_5_5" class="label" role="doc-backlink">[5]</a> See in <i>Harper’s Weekly</i>
-    for Oct. 1, 1910, “The Remarkable Case of William Kemble,”
-based on one of Thornton’s papers.</p></aside>
+[Footnote 5: See in <i>Harper’s Weekly</i> for Oct. 1, 1910, “The Remarkable Case of William Kemble,”
+based on one of Thornton’s papers.]
 
-<aside class="footnote" id="Footnote_6_6" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_6_6" class="label" role="doc-backlink">[6]</a>
-    Memoirs of the Life and Writings of the late John Coakley Lettsom, M.D., LL.D.,
-etc., by Thomas Joseph Pettigrew, F. L. S. London, 1817.</p></aside>
+[Footnote 6: Memoirs of the Life and Writings of the late John Coakley Lettsom, M.D., LL.D.,
+etc., by Thomas Joseph Pettigrew, F. L. S. London, 1817.]
 
-<aside class="footnote" id="Footnote_7_7" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_7_7" class="label" role="doc-backlink">[7]</a>
-    Smeathman wrote: Plan of Settlement to be made near Sierra Leone on the Grain
+[Footnote 7: Smeathman wrote: Plan of Settlement to be made near Sierra Leone on the Grain
 Coast of Africa, intended more particularly for the service and happy establishment of
 Blacks and People of Colour to be shipped as freemen under the Direction of the Committee
 for Relieving the Black Poor, and under the Protection of the British Government.
 By Henry Smeathman, Esq., who has resided in that country nearly four years. London
-1786.</p></aside>
+1786.]
 
-<aside class="footnote" id="Footnote_8_8" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_8_8" class="label" role="doc-backlink">[8]</a>
-    There are instances where the Rivers on the Grain Coast have risen during the Rainy
+[Footnote 8: There are instances where the Rivers on the Grain Coast have risen during the Rainy
 Season 150 feet perpendicular from the Bed and when the Sun dries them up the Stench is
-intolerable.—Bennett. [Note in the MS].</p></aside>
+intolerable.—Bennett. [Note in the MS].]
 
-<aside class="footnote" id="Footnote_9_9" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_9_9" class="label" role="doc-backlink">[9]</a>
-    See Substance of the Report delivered by the Court of Directors of the Sierra Leone
+[Footnote 9: See Substance of the Report delivered by the Court of Directors of the Sierra Leone
 Company to the General Court of Proprietors on Thursday the 27th March, 1794. London,
-1794.</p></aside>
+1794.]
 
-<aside class="footnote" id="Footnote_10_10" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_10_10" class="label" role="doc-backlink">[10]</a>
-    This insertion is in James Madison’s handwriting.</p></aside>
+[Footnote 10: This insertion is in James Madison’s handwriting.]
 
-<aside class="footnote" id="Footnote_11_11" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_11_11" class="label" role="doc-backlink">[11]</a>
-    Political Economy founded in Justice and Humanity in a letter to a friend by W. T.
-Washington, 1804. Printed by Samuel Harrison Smith.</p></aside>
-
-</body>
-</html>
+[Footnote 11: Political Economy founded in Justice and Humanity in a letter to a friend by W. T.
+Washington, 1804. Printed by Samuel Harrison Smith.]
