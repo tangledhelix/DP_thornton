@@ -80,7 +80,8 @@ cd ~/dp/util
 ./make_project.py
 #+END_SRC
 - [X] Read the [[https://www.pgdp.net/c/project.php?id=projectID64ae2bc64dae0#project-comments][project comments]]
-- [X] Subscribe to the [[][forum topic]] and read all posts
+- [X] Subscribe to the forum topic and read all posts
+  - Forum topic was never created
 - [X] Open ~thornton-utf8.txt~ in Guiguts
 - [X] Set document language (probably ~en~)
 - [X] ~File → Project → Configure Page Labels...~. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
