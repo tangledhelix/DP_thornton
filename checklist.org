@@ -19,10 +19,8 @@
   - [X] French: 006, 019 (Clavière's title)
   - [X] French: a few phrases maybe, look for word ~Amis~
 * Transcriber Notes
-** Leading TN
-- Include note about superscript, and that some superscripts are abbreviations.
-- smallscaps to ALLCAPS
 ** Trailing TN
+- smallscaps to ALLCAPS
 - Footnote 3: changed “therby” to “thereby” (each character thereby mutually fixing)
 - p. 18: changed “Propietors” to “Proprietors” (General Court of Proprietors)
 - p. 19: changed “verduer” to “verdure” (and with perpetual verdure)
@@ -403,18 +401,18 @@ For each image:
 - [X] If any images were modified substantially (including removing a library sticker or stamp), add a TN. Place the new image in the public domain in the TN. This is a PG requirement.
 - [X] If fabricating your own cover, add the TN as noted in [[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover][Easy_Epub/Cover]].
 *** Check "things to revisit"
-- [ ] Check revisit list for anything left for the HTML version
+- [X] Check revisit list for anything left for the HTML version
 *** Add TN
-- [ ] Add transcriber's notes, example follows.
+- [X] Add transcriber's notes, example follows.
 #+BEGIN_SRC html
-<div class="transnote">
+<section class="transnote">
 <h2 class="nobreak">Transcriber’s Note</h2>
 
 <p>
 Some inconsistencies in spelling, hyphenation, and punctuation have been
 retained.
 </p>
-</div>
+</section>
 #+END_SRC
 
 An example entry might look like this. Use the book's page numbers, not PNG number.
@@ -424,13 +422,13 @@ An example entry might look like this. Use the book's page numbers, not PNG numb
 #+BEGIN_SRC html
 <ul>
 <li>
-<abbr title="page">p.</abbr> 123: changed “foo” to “fool”
+p. 123: changed “foo” to “fool”
 (<a href="#TN1">the fool and his money</a>)
 </li>
 </ul>
 #+END_SRC
 
-- [ ] Make sure the TN has no straight-quotes ~'"~ and instead uses curly quotes ~“”‘’~
+- [X] Make sure the TN has no straight-quotes ~'"~ and instead uses curly quotes ~“”‘’~
 *** Validate HTML and CSS
 Perform these validation steps before submitting your book. Validation is also helpful while customizing the HTML and CSS above.
 - [ ] Use ~HTML → HTML5 Validator~. Fix any reported problems.
