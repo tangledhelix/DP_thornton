@@ -15,9 +15,9 @@
   - [X] Right-align: 013, 018, 028, 032
   - [X] No-indent para: 013, 019(2), 026, 028
 - Languages:
-  - [ ] Latin: footnote 3(?)
-  - [ ] French: 006, 019 (Clavière's title)
-  - [ ] French: a few phrases maybe, look for word ~Amis~
+  - [X] Latin: footnote 3(?)
+  - [X] French: 006, 019 (Clavière's title)
+  - [X] French: a few phrases maybe, look for word ~Amis~
 * Transcriber Notes
 ** Leading TN
 - Include note about superscript, and that some superscripts are abbreviations.
@@ -349,14 +349,14 @@ The CSS will need tweaking for each specific project's needs.
 <td class="c015" colspan="2"><img class="tb-brace" alt="top curly bracket" src="images/top-brace.png"></td>
 #+END_SRC
 *** Process sidenotes
-- [ ] Does Guiguts auto-process these somehow from ~[Sidenote: ]~ markup?
-- [ ] Decide how to handle these; see the [[https://www.pgdp.net/wiki/Sidenotes][wiki page]].
+- [X] Does Guiguts auto-process these somehow from ~[Sidenote: ]~ markup?
+- [X] Decide how to handle these; see the [[https://www.pgdp.net/wiki/Sidenotes][wiki page]].
 *** Drop caps
 Drop-cap CSS is in my custom header; markup looks like:
 #+BEGIN_SRC html
 <p class="drop-cap"><span class="smcap uppercase">The</span>
 #+END_SRC
-- [ ] Handle any drop-caps ([[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Dropcaps][wiki]])
+- [X] Handle any drop-caps ([[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Dropcaps][wiki]])
 *** Process Hi-resolution Images
 If the project manager provided high-resolution scans of the images in the text, use an image processing program such as GIMP or Adobe Photoshop Elements to optimize them—see [[https://www.pgdp.net/wiki/Guide_to_Image_Processing][Guide to Image Processing]]. You can do this before, during, or after HTML conversion.
 
