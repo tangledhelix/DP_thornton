@@ -131,7 +131,7 @@ img {
 
 
 /* indent paragraphs, reset justification */
-p { text-indent: 1em; text-align: start; }
+p { text-indent: 1em; text-align: left; }
 p.noindent { text-indent: 0; }
 
 /* de-emphasize page numbers */
@@ -1603,8 +1603,8 @@ to our God, would bless the Children of the West!</p>
   <h2 class="nobreak" id="FOOTNOTES">
     FOOTNOTES
   </h2>
-
-<aside class="footnote" id="Footnote_1_1" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_1_1" class="label" role="doc-backlink">[1]</a>
+<a href="#FNanchor_1_1" class="label" role="doc-backlink">[1]</a>
+<aside class="footnote" id="Footnote_1_1" role="doc-footnote" data-epub-type="footnote"><p>
     The Development of the West Indies, by Frank Wesley Pitman, Ph. D., Yale Historical
 Publications, 1917, p. 383.</p></aside>
 
@@ -1725,7 +1725,7 @@ Footnote 7: changed “Graiu” to “Grain”
 (<a href="#TN14">near Sierra Leone on the Grain Coast</a>)
 </li>
 <li>
-footnote 9: changed “Propietors” to “Proprietors”
+Footnote 9: changed “Propietors” to “Proprietors”
 (<a href="#TN1">General Court of Proprietors</a>)
 </li>
 
