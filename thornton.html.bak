@@ -724,16 +724,16 @@ in communicating to the members, any further information
 on this Subject, which you shall think proper and necessary to
 be submitted to their consideration.</p>
 
-<p class="right" style="padding-right:12em;">I am</p>
-<p class="right" style="padding-right:8em;">Sir</p>
-<p class="noindent">
-<span><i>Friday Morning</i></span>
-<span style="float:right; padding-right:1.75em;">with great Respect</span>
+<p class="noindent" style="float:left;padding-top: 2em;"><i>Friday Morning</i></p>
+<p class="right" style="float:right;">
+<span style="padding-right:12em;">I am</span><br>
+<span style="padding-right:8em;">Sir</span><br>
+<span style="padding-right:1.75em;">with great Respect</span><br>
+Your most obedient Servant<br>
+<span class="right" style="padding-right:0.8em;">J Doty</span>
 </p>
-<p class="right">Your most obedient Servant</p>
-<p class="right" style="padding-right:0.8em;">J Doty</p>
 
-<p class="noindent">Doctor Thornton</p>
+<p class="noindent" style="clear:both;">Doctor Thornton</p>
 </blockquote>
 </section>
 
@@ -939,7 +939,7 @@ for Africa will sign their Names, Ages, Trades and Families,
 
 <p>The immediate Exports from Africa to Europe would be
 Gold Dust, Ivory, Cotton, Dying Woods, Gums, Drugs,
-Spices, Fruits and Preserves, Wood for Cabinets, &amp;c. Oil of
+Spices, Fruits and Preserves, Wood for Cabinets, &amp;c, Oil of
 Palms &amp;c, Indigo, Tobacco, Rice and Wax; to America the
 same, except the four last Articles, but with the Addition of
 Cocoa, Coffee, Sugar &amp; its products &amp;c, as the Americans have
@@ -1603,8 +1603,8 @@ to our God, would bless the Children of the West!</p>
   <h2 class="nobreak" id="FOOTNOTES">
     FOOTNOTES
   </h2>
-<a href="#FNanchor_1_1" class="label" role="doc-backlink">[1]</a>
-<aside class="footnote" id="Footnote_1_1" role="doc-footnote" data-epub-type="footnote"><p>
+
+<aside class="footnote" id="Footnote_1_1" role="doc-footnote" data-epub-type="footnote"><p><a href="#FNanchor_1_1" class="label" role="doc-backlink">[1]</a>
     The Development of the West Indies, by Frank Wesley Pitman, Ph. D., Yale Historical
 Publications, 1917, p. 383.</p></aside>
 

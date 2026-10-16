@@ -515,7 +515,7 @@ Submit for a decent length of time, up to the maximum. Check what's in ~ebooks/~
 - [X] Go to [[https://www.pgdp.net/c/project.php?id=projectID64ae2bc64dae0][project page]], select SR time period, upload ~thornton-sr.zip~
 - [X] Subscribe to “user uploads a SR report” item
 - [X] Update my Trello project board with due date, set card to SR status
-- [ ] If time permits, smooth read it myself as well
+- [X] If time permits, smooth read it myself as well
 *** Process SR feedback
 - [ ] After SR is finished, processed SR feedback into project.
 - [ ] Add *anonymized* files to git, e.g. ~thornton-smoothread01.txt~
