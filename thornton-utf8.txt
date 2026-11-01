@@ -8,7 +8,7 @@
 This file uses _underscores_ to indicate italic text. Small capitals
 changed to all capitals.
 
-Letters printed as supercript in the original are indicated using a
+Letters printed as superscript in the original are indicated using a
 caret (^). Where multiple sequential letters were printed as
 superscript, they are grouped with braces, as in 1^{st} or 3^{rd}.
 
@@ -1248,6 +1248,10 @@ p. 19: changed “must” to “most” (I perused it with most satisfaction)
 p. 24: changed “af” to “of” (engage in the establishment of a Colony)
 
 p. 25: changed “french” to “French” (as well as the French Settlements)
+
+p. 26: inconsistent spelling “trafic” (vs. “traffic” elsewhere) left as
+printed, because this section of the text is labeled as a “draft.” (put
+a Stop to that inhuman trafic)
 
 p. 27: changed “intelligbly” to “intelligibly” (understanding, or
 speaking intelligibly)

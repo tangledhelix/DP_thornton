@@ -29,6 +29,7 @@
 - p. 19: changed “must” to “most” (I perused it with most satisfaction)
 - p. 24: changed “af” to “of” (engage in the establishment of a Colony)
 - p. 25: changed “french” to “French” (as well as the French Settlements)
+- p. 26: inconsistent spelling “trafic” (vs. “traffic” elsewhere) left as printed, because this section of the text is labeled as a “draft.” (put a Stop to that inhuman trafic)
 - p. 27: changed “intelligbly” to “intelligibly” (understanding, or speaking intelligibly)
 - p. 27: changed “circultaion” to “circulation” (Papers that obtain extensive circulation)
 - p. 29: changed “Member” to “Members” (some of the Members of the Assembly)
@@ -38,6 +39,7 @@
 - Footnote 7: changed “Graiu” to “Grain” (near Sierra Leone on the Grain Coast)
 * Notes
 ** General notes
+- Added TN for "trafic" based on WW feedback
 ** Proofer notes
 ** Smooth reader notes
 ** Forum notes
