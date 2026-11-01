@@ -444,9 +444,9 @@ President of the “Société des Amis des Noirs.”
   Doctor Thornton
 
 
-  General Outlines of a Settlement on the Coast of Africa particularly
-  that part under the Appellation of the Tooth-Ivory Coast. In the
-  Language of the Blacks _Quaqua_.--[by Thornton].
+        General Outlines of a Settlement on the Coast of Africa
+    particularly that part under the Appellation of the Tooth-Ivory
+     Coast. In the Language of the Blacks _Quaqua_.--[by Thornton].
 
   This part of the Coast is chosen because it enjoys as good Air as any
   of the Windward Coast, is not so subject to pestilential Fevers as
@@ -559,8 +559,8 @@ President of the “Société des Amis des Noirs.”
                                                                    W. T.
 
 
-  To the Black Inhabitants of Pennsylvania, assembled at one of their
-  stated Meetings in Philadelphia. [Draft by Thornton].
+       To the Black Inhabitants of Pennsylvania, assembled at one
+     of their stated Meetings in Philadelphia. [Draft by Thornton].
 
   It is in Contemplation by the English to make a free Settlement of
   Blacks on the Coast of Africa, which they have already begun, and
@@ -733,7 +733,7 @@ President of the “Société des Amis des Noirs.”
   not to America only, but to human Nature--a Gentleman of the first
   Abilities, and whose Voice has ever been listened to with uncommon
   attention in the Councils of this Nation. His own Words are the best
-  adapted to his Sentiments. [Insert the note by M^r. M.]
+  adapted to his Sentiments. [Insert the note by M^r.M.]
 
   “Without inquiring into the practicability or the most proper means
   of establishing a settlement of freed blacks on the Coast of Africa,
@@ -802,7 +802,7 @@ President of the “Société des Amis des Noirs.”
 
   I am with the greatest regard & esteem
                              thy respectful Friend
-                                                      W.T.
+                                                      W:T.
 
 
              SUGGESTION TO BUY PORTO RICO FOR FREE NEGROES.
@@ -1019,9 +1019,9 @@ President of the “Société des Amis des Noirs.”
 
                                                        [December, 1816.]
 
-  To the honorable Henry Clay, Chairman of the Assembly for promoting
-  the establishment of a free and independ^t. Nation of Blacks in
-  Africa [draft by Thornton.]
+       To the honorable Henry Clay, Chairman of the Assembly for
+      promoting the establishment of a free and independ^t. Nation
+                of Blacks in Africa [draft by Thornton.]
 
   Sir
 
@@ -1138,7 +1138,7 @@ President of the “Société des Amis des Noirs.”
   the immensity of the Object & particularly if the surrounding People
   be informed that nothing but good is contemplated. But instead of
   thousands were it to cost us millions it would be unworthy of the
-  Consider^n, of a great & magnanimous People, who have not hesitated
+  Consider^n. of a great & magnanimous People, who have not hesitated
   to sacrifice more than a hundred Millions in asserting National
   Principles in defence of private Rights; especially when this great
   Cause is a beneficent retribution for long sustained injuries
@@ -1148,7 +1148,7 @@ President of the “Société des Amis des Noirs.”
   fee simple only be disposed of by degrees that the Settlers may be
   kept compact, and be thereby more capable of defending themselves &
   their flocks from the incursions of the Savages & from the beasts
-  of the wilderness. A form of republican Govern^t, would be prepared
+  of the wilderness. A form of republican Govern^t. would be prepared
   for them--and they ought for a while to be protected by a due force.
   Every Advantage should be accorded to them, that an orderly &
   reasonable people could desire. Public Schools & places of worship
