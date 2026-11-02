@@ -561,13 +561,13 @@ Ref: [[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Guide_to_D
 - For projects over a month old, use the [[https://www.gutenberg.org/help/errata.html][errata process]]
 - If not posted within a week, contact WWers pgww at lists.pglaf.org
 ** Project wrap-up
-- [ ] When posted, then update PG URL in README.md, and [[https://tangledhelix.com/about][personal website list]], and set homepage on GitHub project
+- [X] When posted, then update PG URL in README.md, and [[https://tangledhelix.com/about][personal website list]], and set homepage on GitHub project
 *** Device / cloud cleanup
-- [ ] Remove from Dropbox
-- [ ] Remove from Kindle and Kindle library
-- [ ] Remove from Apple Books
-- [ ] Remove from Calibre
-- [ ] Remove from Kobo device
+- [X] Remove from Dropbox
+- [X] Remove from Kindle and Kindle library
+- [X] Remove from Apple Books
+- [X] Remove from Calibre
+- [X] Remove from Kobo device
 ** Related Pages
 - [[https://www.pgdp.net/wiki/Beginner_PP_advice][Beginner PP advice]]
 - [[https://www.pgdp.net/c/faq/post_proof.php][Post-Processing FAQ]]

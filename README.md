@@ -8,6 +8,6 @@ This is a [Distributed Proofreaders](http://www.pgdp.net/) post-processing proje
 * [Forum thread]()
 * [Good words](good_words.txt)
 * [Bad words](bad_words.txt)
-* [Project Gutenberg listing]() (not posted yet)
+* [Project Gutenberg listing](https://www.gutenberg.org/ebooks/79903)
 
 Further project notes can be found in [the checklist](checklist.org).
